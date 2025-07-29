@@ -21,7 +21,29 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "Closed Companies",
   description: "A public archive of failed startups",
-    generator: 'v0.dev'
+  generator: "v0.dev",
+  openGraph: {
+    title: "Closed Companies",
+    description: "A public archive of failed startups",
+    url: "https://closedcompanies.com",
+    siteName: "Closed Companies",
+    images: [
+      {
+        url: "https://closedcompanies.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Closed Companies Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Closed Companies",
+    description: "A public archive of failed startups",
+    images: ["https://closedcompanies.com/og-image.jpg"],
+  },
 }
 
 export default function RootLayout({
