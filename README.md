@@ -8,7 +8,7 @@ This project maintains a database of failed startups, tracking their founding da
 
 ## Tech Stack
 
-- Next.js 14 with TypeScript
+- Next.js with TypeScript
 - MongoDB Atlas for data storage
 - Tailwind CSS for styling
 - Mongoose ODM for database operations
