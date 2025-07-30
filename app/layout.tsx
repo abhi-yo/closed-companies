@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { DM_Sans, Instrument_Serif } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 // Load DM Sans font
@@ -53,7 +54,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${dmSans.variable} ${instrumentSerif.variable}`}>
-      <body className="font-dm-sans bg-[#0B0B0B] text-white antialiased">{children}</body>
+      <body className="font-dm-sans bg-[#0B0B0B] text-white antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
