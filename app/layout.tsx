@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   title: "Closed Companies",
   description: "A public archive of failed startups",
   generator: "v0.dev",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Closed Companies",
     description: "A public archive of failed startups",
@@ -30,10 +35,10 @@ export const metadata: Metadata = {
     siteName: "Closed Companies",
     images: [
       {
-        url: "https://closedcompanies.com/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Closed Companies Logo",
+        alt: "Closed Companies - Startup Failure Archive Screenshot",
       },
     ],
     locale: "en_US",
@@ -43,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Closed Companies",
     description: "A public archive of failed startups",
-    images: ["https://closedcompanies.com/og-image.jpg"],
+    images: ["/og-image.png"],
   },
 }
 
