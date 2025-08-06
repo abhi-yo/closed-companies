@@ -11,11 +11,13 @@ export function StartupTable() {
   const [dialogOpen, setDialogOpen] = useState(false)
   const [selectedYear, setSelectedYear] = useState<string>("all")
   const [searchQuery, setSearchQuery] = useState("")
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     async function fetchStartups() {
       try {
-        const res = await fetch('/api/startups')
+        setLoading(true)
+        const res = await fetch("/api/startups")
         const data = await res.json()
         // Handle API response format
         if (data.startups) {
@@ -26,6 +28,8 @@ export function StartupTable() {
       } catch (error) {
         console.error('Failed to fetch startups:', error)
         setStartups([])
+      } finally {
+        setLoading(false)
       }
     }
     fetchStartups()
@@ -150,6 +154,21 @@ export function StartupTable() {
       </div>
 
       {/* Table */}
+      {loading ? (
+        <div className="neumorphic-card p-4 md:p-6 space-y-4 animate-pulse">
+          {[...Array(5)].map((_, idx) => (
+            <div key={idx} className="grid grid-cols-7 gap-4">
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+              <div className="h-4 bg-gray-700 rounded col-span-1"></div>
+            </div>
+          ))}
+        </div>
+      ) : (
       <div className="neumorphic-card p-4 md:p-6 overflow-x-auto">
         <div className="min-w-[800px]">
           <table className="w-full">
@@ -225,6 +244,7 @@ export function StartupTable() {
           </table>
         </div>
       </div>
+      )}
 
       <StartupDetailDialog startup={selectedStartup} open={dialogOpen} onOpenChange={setDialogOpen} />
     </>
