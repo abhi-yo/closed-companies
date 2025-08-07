@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react"
 import { type Startup } from "@/lib/data"
-import { ExternalLink, Search } from "lucide-react"
+import { ExternalLink, Search, ChevronUp, ChevronDown, ChevronsUpDown } from "lucide-react"
 import { StartupDetailDialog } from "./startup-detail-dialog"
 
 export function StartupTable() {
@@ -11,6 +11,8 @@ export function StartupTable() {
   const [dialogOpen, setDialogOpen] = useState(false)
   const [selectedYear, setSelectedYear] = useState<string>("all")
   const [searchQuery, setSearchQuery] = useState("")
+  const [sortColumn, setSortColumn] = useState<keyof Startup>("shutDown")
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
 
   useEffect(() => {
     async function fetchStartups() {
@@ -37,6 +39,56 @@ export function StartupTable() {
     return years
   }, [startups])
 
+  // Handle column sorting
+  const handleSort = (column: keyof Startup) => {
+    if (sortColumn === column) {
+      setSortDirection(sortDirection === "asc" ? "desc" : "asc")
+    } else {
+      setSortColumn(column)
+      setSortDirection("asc")
+    }
+  }
+
+  // Sort function for different data types
+  const sortStartups = (startups: Startup[]) => {
+    return [...startups].sort((a, b) => {
+      let aValue: any = a[sortColumn]
+      let bValue: any = b[sortColumn]
+
+      // Handle funding sorting (convert to numeric value)
+      if (sortColumn === "funding") {
+        const getFundingValue = (funding: string) => {
+          if (funding === "Undisclosed" || funding === "Internal" || funding === "Seed") return 0
+          
+          const match = funding.match(/\$?([0-9.]+)([BMK]?)/)
+          if (!match) return 0
+          
+          const amount = parseFloat(match[1])
+          const multiplier = match[2] === 'B' ? 1e9 : match[2] === 'M' ? 1e6 : match[2] === 'K' ? 1e3 : 1
+          return amount * multiplier
+        }
+        
+        aValue = getFundingValue(aValue)
+        bValue = getFundingValue(bValue)
+      }
+
+      // Handle string sorting (case insensitive)
+      if (typeof aValue === "string" && typeof bValue === "string") {
+        aValue = aValue.toLowerCase()
+        bValue = bValue.toLowerCase()
+      }
+
+      let comparison = 0
+      if (aValue < bValue) {
+        comparison = -1
+      } else if (aValue > bValue) {
+        comparison = 1
+      }
+
+      return sortDirection === "desc" ? -comparison : comparison
+    })
+  }
+
   // Filter startups based on year and search
   const filteredStartups = useMemo(() => {
     let filtered = startups
@@ -55,16 +107,9 @@ export function StartupTable() {
       )
     }
 
-    // Sort by shutdown year (most recent first), then by name
-    filtered = filtered.sort((a, b) => {
-      if (a.shutDown !== b.shutDown) {
-        return b.shutDown - a.shutDown // Most recent year first
-      }
-      return a.name.localeCompare(b.name) // Then alphabetically by name
-    })
-
-    return filtered
-  }, [startups, selectedYear, searchQuery])
+    // Apply sorting
+    return sortStartups(filtered)
+  }, [startups, selectedYear, searchQuery, sortColumn, sortDirection])
 
   // Calculate stats for filtered data
   const stats = useMemo(() => {
@@ -100,6 +145,17 @@ export function StartupTable() {
     if (amount >= 1e6) return `$${(amount / 1e6).toFixed(1)}M`
     if (amount >= 1e3) return `$${(amount / 1e3).toFixed(1)}K`
     return `$${amount.toFixed(0)}`
+  }
+
+  // Render sort icon for column headers
+  const renderSortIcon = (column: keyof Startup) => {
+    if (sortColumn !== column) {
+      return <ChevronsUpDown className="w-4 h-4 text-white/30" />
+    }
+    
+    return sortDirection === "asc" 
+      ? <ChevronUp className="w-4 h-4 text-white/70" />
+      : <ChevronDown className="w-4 h-4 text-white/70" />
   }
 
   return (
@@ -155,23 +211,59 @@ export function StartupTable() {
           <table className="w-full">
             <thead>
               <tr className="border-b border-white/20">
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Name
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("name")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Name
+                    {renderSortIcon("name")}
+                  </button>
                 </th>
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Shut Down
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("shutDown")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Shut Down
+                    {renderSortIcon("shutDown")}
+                  </button>
                 </th>
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Industry
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("industry")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Industry
+                    {renderSortIcon("industry")}
+                  </button>
                 </th>
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Country
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("country")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Country
+                    {renderSortIcon("country")}
+                  </button>
                 </th>
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Funding
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("funding")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Funding
+                    {renderSortIcon("funding")}
+                  </button>
                 </th>
-                <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
-                  Cause of Shutdown
+                <th className="text-left py-3 md:py-4 px-2">
+                  <button
+                    onClick={() => handleSort("causeOfShutdown")}
+                    className="flex items-center gap-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base hover:text-white/90 transition-colors"
+                  >
+                    Cause of Shutdown
+                    {renderSortIcon("causeOfShutdown")}
+                  </button>
                 </th>
                 <th className="text-left py-3 md:py-4 px-2 font-dm-sans font-semibold text-white/70 text-sm md:text-base">
                   Link
