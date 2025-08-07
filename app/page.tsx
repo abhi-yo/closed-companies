@@ -14,6 +14,21 @@ export default function HomePage() {
           <p className="text-lg md:text-xl text-white/70 font-dm-sans max-w-2xl mx-auto px-4">
             A public archive documenting the rise and fall of ambitious startups that didn't make it
           </p>
+          {/* Peerlist Badge */}
+  <div className="flex justify-center mt-6 mb-2">
+    <a 
+      href="https://peerlist.io/akshatbuilds/project/closed-companies" 
+      target="_blank" 
+      rel="noreferrer"
+      className="hover:opacity-80 transition-opacity"
+    >
+      <img
+        src="https://peerlist.io/api/v1/projects/embed/PRJHDNDKPGN9ERL9L2A97NONQRAQJK?showUpvote=true&theme=dark"
+        alt="Closed Companies"
+        style={{ width: "auto", height: "72px" }}
+      />
+    </a>
+  </div>
         </div>
 
         {/* Table with integrated stats and filters */}
