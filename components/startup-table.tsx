@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from "react"
 import { type Startup } from "@/lib/data"
 import { ExternalLink, Search, ChevronUp, ChevronDown, ChevronsUpDown } from "lucide-react"
 import { StartupDetailDialog } from "./startup-detail-dialog"
+import { Skeleton } from "./ui/skeleton"
 
 export function StartupTable() {
   const [startups, setStartups] = useState<Startup[]>([])
@@ -14,6 +15,7 @@ export function StartupTable() {
   const [loading, setLoading] = useState(true)
   const [sortColumn, setSortColumn] = useState<keyof Startup>("shutDown")
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
+  const [loading, setLoading] = useState(true)
 
 
   useEffect(() => {
@@ -166,47 +168,78 @@ export function StartupTable() {
   return (
     <>
       {/* Stats Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mb-6">
-        <div className="neumorphic-card p-4 md:p-6 text-center">
-          <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{stats.count}</div>
-          <div className="text-white/70 font-dm-sans text-sm md:text-base">Failed Startups</div>
+      {loading ? (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mb-6">
+          <div className="neumorphic-card p-4 md:p-6">
+            <Skeleton className="h-8 md:h-10 w-20 mb-2 bg-white/10" />
+            <Skeleton className="h-4 w-32 bg-white/10" />
+          </div>
+          <div className="neumorphic-card p-4 md:p-6">
+            <Skeleton className="h-8 md:h-10 w-28 mb-2 bg-white/10" />
+            <Skeleton className="h-4 w-40 bg-white/10" />
+          </div>
+          <div className="neumorphic-card p-4 md:p-6">
+            <Skeleton className="h-8 md:h-10 w-16 mb-2 bg-white/10" />
+            <Skeleton className="h-4 w-36 bg-white/10" />
+          </div>
         </div>
-        <div className="neumorphic-card p-4 md:p-6 text-center">
-          <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{formatFunding(stats.totalFunding)}</div>
-          <div className="text-white/70 font-dm-sans text-sm md:text-base">Total Funding Lost</div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mb-6">
+          <div className="neumorphic-card p-4 md:p-6 text-center">
+            <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{stats.count}</div>
+            <div className="text-white/70 font-dm-sans text-sm md:text-base">Failed Startups</div>
+          </div>
+          <div className="neumorphic-card p-4 md:p-6 text-center">
+            <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{formatFunding(stats.totalFunding)}</div>
+            <div className="text-white/70 font-dm-sans text-sm md:text-base">Total Funding Lost</div>
+          </div>
+          <div className="neumorphic-card p-4 md:p-6 text-center">
+            <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{stats.avgYears.toFixed(0)}</div>
+            <div className="text-white/70 font-dm-sans text-sm md:text-base">Avg Years Active</div>
+          </div>
         </div>
-        <div className="neumorphic-card p-4 md:p-6 text-center">
-          <div className="text-2xl md:text-3xl font-doto font-bold text-white mb-2">{stats.avgYears.toFixed(0)}</div>
-          <div className="text-white/70 font-dm-sans text-sm md:text-base">Avg Years Active</div>
-        </div>
-      </div>
+      )}
 
       {/* Filters */}
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
         {/* Year Filter */}
         <div className="flex-1">
-          <select
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(e.target.value)}
-            className="w-full bg-[#181818] border border-white/20 rounded-lg px-3 py-2 text-white font-dm-sans text-sm focus:outline-none focus:border-white/40 transition-colors"
-          >
-            <option value="all">All Years</option>
-            {availableYears.map(year => (
-              <option key={year} value={year.toString()}>{year}</option>
-            ))}
-          </select>
+          {loading ? (
+            <div className="w-full bg-[#181818] border border-white/20 rounded-lg px-3 py-2">
+              <Skeleton className="h-5 w-28 bg-white/10" />
+            </div>
+          ) : (
+            <select
+              value={selectedYear}
+              onChange={(e) => setSelectedYear(e.target.value)}
+              className="w-full bg-[#181818] border border-white/20 rounded-lg px-3 py-2 text-white font-dm-sans text-sm focus:outline-none focus:border-white/40 transition-colors"
+            >
+              <option value="all">All Years</option>
+              {availableYears.map(year => (
+                <option key={year} value={year.toString()}>{year}</option>
+              ))}
+            </select>
+          )}
         </div>
 
         {/* Search */}
         <div className="flex-1 relative">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white/40 w-4 h-4" />
-          <input
-            type="text"
-            placeholder="Search startups..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-[#181818] border border-white/20 rounded-lg pl-10 pr-3 py-2 text-white font-dm-sans text-sm placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
-          />
+          {loading ? (
+            <div className="w-full bg-[#181818] border border-white/20 rounded-lg px-3 py-2">
+              <Skeleton className="h-5 w-full bg-white/10" />
+            </div>
+          ) : (
+            <>
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white/40 w-4 h-4" />
+              <input
+                type="text"
+                placeholder="Search startups..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full bg-[#181818] border border-white/20 rounded-lg pl-10 pr-3 py-2 text-white font-dm-sans text-sm placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
+              />
+            </>
+          )}
         </div>
       </div>
 
@@ -291,47 +324,75 @@ export function StartupTable() {
               </tr>
             </thead>
             <tbody>
-              {filteredStartups.length === 0 ? (
-                <tr>
-                  <td colSpan={7} className="py-8 text-center text-white/50 font-dm-sans">
-                    {searchQuery ? `No startups found matching "${searchQuery}"` : "No startups found"}
-                  </td>
-                </tr>
-              ) : (
-                filteredStartups.map((startup) => (
-                  <tr key={startup.id} className="border-b border-white/10 hover:bg-white/5 transition-colors">
+              {loading ? (
+                Array.from({ length: 8 }).map((_, i) => (
+                  <tr key={`sk-${i}`} className="border-b border-white/10">
                     <td className="py-3 md:py-4 px-2">
-                      <button
-                        onClick={() => handleStartupClick(startup)}
-                        className="font-medium text-white hover:text-white/80 transition-colors text-left text-sm md:text-base underline decoration-dotted underline-offset-2"
-                      >
-                        {startup.name}
-                      </button>
-                    </td>
-                    <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">
-                      {startup.shutDown}
-                    </td>
-                    <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.industry}</td>
-                    <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.country}</td>
-                    <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.funding}</td>
-                    <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base max-w-[200px] md:max-w-xs truncate">
-                      {startup.causeOfShutdown}
+                      <Skeleton className="h-4 w-40 bg-white/10" />
                     </td>
                     <td className="py-3 md:py-4 px-2">
-                      {startup.articleUrl && (
-                        <a
-                          href={startup.articleUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-white hover:text-white/80 transition-colors"
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          <ExternalLink size={14} className="md:w-4 md:h-4" />
-                        </a>
-                      )}
+                      <Skeleton className="h-4 w-16 bg-white/10" />
+                    </td>
+                    <td className="py-3 md:py-4 px-2">
+                      <Skeleton className="h-4 w-28 bg-white/10" />
+                    </td>
+                    <td className="py-3 md:py-4 px-2">
+                      <Skeleton className="h-4 w-24 bg-white/10" />
+                    </td>
+                    <td className="py-3 md:py-4 px-2">
+                      <Skeleton className="h-4 w-20 bg-white/10" />
+                    </td>
+                    <td className="py-3 md:py-4 px-2">
+                      <Skeleton className="h-4 w-56 bg-white/10" />
+                    </td>
+                    <td className="py-3 md:py-4 px-2">
+                      <Skeleton className="h-4 w-6 bg-white/10" />
                     </td>
                   </tr>
                 ))
+              ) : (
+                filteredStartups.length === 0 ? (
+                  <tr>
+                    <td colSpan={7} className="py-8 text-center text-white/50 font-dm-sans">
+                      {searchQuery ? `No startups found matching "${searchQuery}"` : "No startups found"}
+                    </td>
+                  </tr>
+                ) : (
+                  filteredStartups.map((startup) => (
+                    <tr key={startup.id} className="border-b border-white/10 hover:bg-white/5 transition-colors">
+                      <td className="py-3 md:py-4 px-2">
+                        <button
+                          onClick={() => handleStartupClick(startup)}
+                          className="font-medium text-white hover:text-white/80 transition-colors text-left text-sm md:text-base underline decoration-dotted underline-offset-2"
+                        >
+                          {startup.name}
+                        </button>
+                      </td>
+                      <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">
+                        {startup.shutDown}
+                      </td>
+                      <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.industry}</td>
+                      <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.country}</td>
+                      <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base">{startup.funding}</td>
+                      <td className="py-3 md:py-4 px-2 text-white/70 text-sm md:text-base max-w-[200px] md:max-w-xs truncate">
+                        {startup.causeOfShutdown}
+                      </td>
+                      <td className="py-3 md:py-4 px-2">
+                        {startup.articleUrl && (
+                          <a
+                            href={startup.articleUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white hover:text-white/80 transition-colors"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            <ExternalLink size={14} className="md:w-4 md:h-4" />
+                          </a>
+                        )}
+                      </td>
+                    </tr>
+                  ))
+                )
               )}
             </tbody>
           </table>
