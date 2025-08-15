@@ -31,7 +31,7 @@ export async function GET(request: Request) {
     
     // Execute query with pagination and sorting
     const startups = await Startup.find(query)
-      .sort({ shutDown: -1, name: 1 }) // Most recent year first, then alphabetical
+      .sort({ shutDown: -1, id: -1 }) // Most recent year first, then most recent entries first (higher ID = more recent)
       .limit(limit)
       .skip((page - 1) * limit)
       .lean() // Returns plain objects instead of Mongoose documents
