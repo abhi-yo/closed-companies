@@ -35,18 +35,6 @@ export async function POST(request: Request) {
           return NextResponse.json({ ok: false }, { status: 400 });
         }
 
-        // Find existing customer first
-        const existingCustomer = await Customer.findOne({ 
-          email: customerEmail.toLowerCase() 
-        });
-        
-        if (process.env.NODE_ENV === 'development') {
-          console.log("Found existing customer:", existingCustomer ? "YES" : "NO");
-          if (existingCustomer) {
-            console.log("Current status:", existingCustomer.subscriptionStatus);
-          }
-        }
-
         // Activate customer subscription
         const updatedCustomer = await Customer.findOneAndUpdate(
           { email: customerEmail.toLowerCase() },
