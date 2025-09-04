@@ -105,8 +105,11 @@ export function DigestSubscribeDialog() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <NeumorphicButton className="font-dm-sans">
-          Subscribe for Premium Digest
+        <NeumorphicButton 
+          className="font-dm-sans opacity-60 cursor-not-allowed" 
+          disabled
+        >
+          Coming Soon
         </NeumorphicButton>
       </DialogTrigger>
       <DialogContent className="neumorphic-card text-white max-w-md">
