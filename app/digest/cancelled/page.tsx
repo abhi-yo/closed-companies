@@ -20,9 +20,10 @@ export default function DigestCancelledPage() {
           </div>
         </div>
 
-        <h1 className="text-2xl font-dm-sans mb-2">Payment Cancelled</h1>
+        <h1 className="text-2xl font-dm-sans mb-2">Subscription Cancelled</h1>
         <p className="text-white/70 mb-6">
-          No worries! Your payment was cancelled and you haven't been charged.
+          No worries! Your subscription was cancelled and you haven't been
+          charged.
         </p>
 
         <div className="space-y-3">
@@ -34,7 +35,7 @@ export default function DigestCancelledPage() {
           </a>
 
           <p className="text-sm text-white/50">
-            Changed your mind? You can subscribe anytime for just $2/month.
+            Changed your mind? You can subscribe anytime for free.
           </p>
         </div>
       </div>
