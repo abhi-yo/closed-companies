@@ -20,7 +20,7 @@ export async function GET(request: Request) {
     console.log("🕒 Automated digest cron job triggered");
 
     // Call the existing digest send endpoint
-    const response = await fetch(`${process.env.APP_URL || "http://localhost:3000"}/api/digest/send`, {
+    const response = await fetch(`${process.env.APP_URL || "https://www.closedcompanies.site"}/api/digest/send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
