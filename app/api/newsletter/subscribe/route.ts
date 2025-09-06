@@ -58,7 +58,7 @@ export async function POST(request: Request) {
       await existing.save();
 
       const confirmUrl = `${
-        process.env.APP_URL || "http://localhost:3000"
+        process.env.APP_URL || "https://www.closedcompanies.site"
       }/api/newsletter/confirm?token=${encodeURIComponent(verificationToken)}`;
       await sendEmail({
         to: normalizedEmail,
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
     });
 
     const confirmUrl = `${
-      process.env.APP_URL || "http://localhost:3000"
+      process.env.APP_URL || "https://www.closedcompanies.site"
     }/api/newsletter/confirm?token=${encodeURIComponent(verificationToken)}`;
     await sendEmail({
       to: normalizedEmail,
