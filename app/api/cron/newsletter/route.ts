@@ -19,7 +19,7 @@ export async function GET(request: Request) {
     console.log("🕒 Automated newsletter cron job triggered");
 
     // Call the existing newsletter send endpoint
-    const response = await fetch(`${process.env.APP_URL || "http://localhost:3000"}/api/newsletter/send`, {
+    const response = await fetch(`${process.env.APP_URL || "https://www.closedcompanies.site"}/api/newsletter/send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
