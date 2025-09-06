@@ -31,16 +31,16 @@ export default async function DigestSuccessPage({
           </div>
         </div>
 
-        <h1 className="text-2xl font-dm-sans mb-2">Welcome to Premium!</h1>
+        <h1 className="text-2xl font-dm-sans mb-2">Welcome to the Digest!</h1>
         <p className="text-white/70 mb-4">
-          Your subscription is now active. You'll receive your first weekly
-          digest on Monday.
+          Check your email to confirm your subscription. You'll receive your
+          first weekly digest after confirmation.
         </p>
 
         <div className="text-sm text-white/50 space-y-2 mb-6">
           <p>✓ 4-5 detailed startup failure stories weekly</p>
           <p>✓ In-depth analysis of what went wrong</p>
-          <p>✓ Only $2/month • Cancel anytime</p>
+          <p>✓ Free • Unsubscribe anytime</p>
         </div>
 
         <a
@@ -52,15 +52,9 @@ export default async function DigestSuccessPage({
 
         <div className="mt-4 space-y-1">
           <p className="text-xs text-white/30">
-            Payment completed successfully
+            Subscription created successfully
           </p>
           {email && <p className="text-xs text-white/20">Email: {email}</p>}
-          {sessionId &&
-            sessionId !== "{CHECKOUT_SESSION_ID}" &&
-            sessionId !== "{{CHECKOUT_SESSION_ID}}" &&
-            sessionId !== "{checkout_session_id}" && (
-              <p className="text-xs text-white/20">Session: {sessionId}</p>
-            )}
         </div>
       </div>
     </div>
