@@ -12,11 +12,11 @@ export default async function DigestUnsubscribedPage({
         {ok ? (
           <>
             <h1 className="text-2xl font-dm-sans mb-2">
-              Subscription cancelled
+              Unsubscribed successfully
             </h1>
             <p className="text-white/70 mb-4">
-              You won't receive any more weekly digests. Your subscription will
-              remain active until the current billing period ends.
+              You won't receive any more weekly digests. You've been
+              unsubscribed from the mailing list.
             </p>
             <p className="text-white/50 text-sm">
               Sorry to see you go! You can resubscribe anytime from the
