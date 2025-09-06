@@ -1,35 +1,44 @@
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
-import Customer from "@/lib/models/Customer";
+import Subscriber from "@/lib/models/Subscriber";
 
 export async function GET(request: Request) {
   try {
     await connectDB();
     const { searchParams } = new URL(request.url);
     const token = searchParams.get("token");
+
     if (!token) {
       return NextResponse.redirect(
-        new URL("/digest/unsubscribed?error=missing", request.url)
-      );
-    }
-    const customer = await Customer.findOne({ unsubscribeToken: token });
-    if (!customer) {
-      return NextResponse.redirect(
-        new URL("/digest/unsubscribed?error=invalid", request.url)
+        `${
+          process.env.APP_URL || "https://www.closedcompanies.site"
+        }/digest/cancelled?error=missing_token`
       );
     }
 
-    // Mark as cancelled but keep the customer record for billing
-    customer.subscriptionStatus = "cancelled";
-    await customer.save();
+    const subscriber = await Subscriber.findOne({ unsubscribeToken: token });
+    if (!subscriber) {
+      return NextResponse.redirect(
+        `${
+          process.env.APP_URL || "https://www.closedcompanies.site"
+        }/digest/cancelled?error=invalid_token`
+      );
+    }
+
+    subscriber.unsubscribedAt = new Date();
+    await subscriber.save();
 
     return NextResponse.redirect(
-      new URL("/digest/unsubscribed?ok=1", request.url)
+      `${
+        process.env.APP_URL || "https://www.closedcompanies.site"
+      }/digest/unsubscribed`
     );
   } catch (error) {
-    console.error("Unsubscribe error", error);
+    console.error("Digest unsubscribe error:", error);
     return NextResponse.redirect(
-      new URL("/digest/unsubscribed?error=server", request.url)
+      `${
+        process.env.APP_URL || "https://www.closedcompanies.site"
+      }/digest/cancelled?error=unsubscribe_failed`
     );
   }
 }
