@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import crypto from "crypto";
 import connectDB from "@/lib/mongodb";
-import Customer from "@/lib/models/Customer";
+import Subscriber from "@/lib/models/Subscriber";
 import { subscribeLimiter } from "@/lib/rateLimiter";
-import { createCheckoutSession } from "@/lib/polar";
+import { sendEmail } from "@/lib/email";
+import crypto from "crypto";
 
 function getClientIp(req: Request) {
   const forwarded = req.headers.get("x-forwarded-for") || "";
@@ -25,72 +25,66 @@ export async function POST(request: Request) {
 
   try {
     await connectDB();
-    const { email, name, plan = "monthly" } = await request.json();
+    const { email, name } = await request.json();
 
     if (!email || typeof email !== "string") {
       return NextResponse.json({ error: "Email is required" }, { status: 400 });
     }
 
-    const normalizedEmail = email.trim().toLowerCase();
-    const token = crypto.randomBytes(24).toString("hex");
-
-    const existing = await Customer.findOne({ email: normalizedEmail });
-    if (existing) {
-      // If customer exists but not active, create new checkout
-      if (existing.subscriptionStatus !== "active") {
-        const appUrl = process.env.APP_URL || "http://localhost:3000";
-        const checkoutSession = await createCheckoutSession({
-          customerEmail: normalizedEmail,
-          successUrl: `${appUrl}/digest/success?email=${encodeURIComponent(
-            normalizedEmail
-          )}`,
-          cancelUrl: `${appUrl}/digest/cancelled`,
-        });
-
-        return NextResponse.json({
-          ok: true,
-          checkoutUrl: checkoutSession.url,
-          sessionId: checkoutSession.id,
-        });
-      }
-
-      return NextResponse.json({
-        exists: true,
-        status: existing.subscriptionStatus,
-        message: "Already subscribed",
-      });
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: "Invalid email format" },
+        { status: 400 }
+      );
     }
 
-    // Create inactive customer (will be activated after payment)
-    const customer = await Customer.create({
+    const normalizedEmail = email.trim().toLowerCase();
+    const token = crypto.randomBytes(24).toString("hex");
+    const verificationToken = crypto.randomBytes(32).toString("hex");
+
+    const existing = await Subscriber.findOne({ email: normalizedEmail });
+    if (existing) {
+      if (existing.unsubscribedAt) {
+        existing.unsubscribedAt = null;
+      }
+      existing.verified = false;
+      existing.verificationToken = verificationToken;
+      existing.unsubscribeToken = token;
+      existing.sourceIp = ip;
+      await existing.save();
+
+      const confirmUrl = `${
+        process.env.APP_URL || "https://www.closedcompanies.site"
+      }/api/digest/confirm?token=${encodeURIComponent(verificationToken)}`;
+      await sendEmail({
+        to: normalizedEmail,
+        subject: "Confirm your subscription to Closed Companies Digest",
+        html: `<div style="font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#111"><h2>Confirm your subscription</h2><p>Click the button below to confirm your subscription to Closed Companies Digest.</p><p><a href="${confirmUrl}" style="display:inline-block;padding:10px 16px;background:#000;color:#fff;text-decoration:none;border-radius:8px">Confirm subscription</a></p><p>If the button doesn't work, copy and paste this URL:<br/>${confirmUrl}</p></div>`,
+      });
+      return NextResponse.json({ ok: true });
+    }
+
+    await Subscriber.create({
       email: normalizedEmail,
-      name: name?.trim(),
-      plan,
-      subscriptionStatus: "inactive",
       unsubscribeToken: token,
+      verified: false,
+      verificationToken,
       sourceIp: ip,
     });
 
-    // Create Polar checkout session
-    const appUrl = process.env.APP_URL || "http://localhost:3000";
-    const checkoutSession = await createCheckoutSession({
-      customerEmail: normalizedEmail,
-      successUrl: `${appUrl}/digest/success?email=${encodeURIComponent(
-        normalizedEmail
-      )}`,
-      cancelUrl: `${appUrl}/digest/cancelled`,
+    const confirmUrl = `${
+      process.env.APP_URL || "https://www.closedcompanies.site"
+    }/api/digest/confirm?token=${encodeURIComponent(verificationToken)}`;
+    await sendEmail({
+      to: normalizedEmail,
+      subject: "Confirm your subscription to Closed Companies Digest",
+      html: `<div style="font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#111"><h2>Confirm your subscription</h2><p>Click the button below to confirm your subscription to Closed Companies Digest.</p><p><a href="${confirmUrl}" style="display:inline-block;padding:10px 16px;background:#000;color:#fff;text-decoration:none;border-radius:8px">Confirm subscription</a></p><p>If the button doesn't work, copy and paste this URL:<br/>${confirmUrl}</p></div>`,
     });
 
-    return NextResponse.json({
-      ok: true,
-      checkoutUrl: checkoutSession.url,
-      sessionId: checkoutSession.id,
-    });
+    return NextResponse.json({ ok: true });
   } catch (error) {
-    console.error("Digest subscribe error", error);
-    return NextResponse.json(
-      { error: "Internal Server Error" },
-      { status: 500 }
-    );
+    console.error("Digest subscription error:", error);
+    return NextResponse.json({ error: "Subscription failed" }, { status: 500 });
   }
 }
