@@ -34,21 +34,11 @@ export function DigestSubscribeDialog() {
       const res = await fetch("/api/digest/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, name, plan: "monthly" }),
+        body: JSON.stringify({ email, name }),
       });
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.error || "Failed to subscribe");
-      }
-
-      if (data.checkoutUrl) {
-        // Redirect to Polar checkout
-        window.location.href = data.checkoutUrl;
-        return;
-      }
-
-      if (data.exists) {
-        throw new Error(data.message || "Already subscribed");
       }
 
       setSuccess(true);
@@ -80,7 +70,7 @@ export function DigestSubscribeDialog() {
 
       console.log("Email check response:", data);
 
-      if (data.exists && data.status === "active") {
+      if (data.exists && data.verified) {
         console.log("Email is already subscribed");
         setEmailStatus("subscribed");
       } else {
@@ -105,25 +95,19 @@ export function DigestSubscribeDialog() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <NeumorphicButton 
-          className="font-dm-sans opacity-60 cursor-not-allowed" 
-          disabled
-        >
-          Coming Soon
+        <NeumorphicButton className="font-dm-sans">
+          Subscribe to Digest
         </NeumorphicButton>
       </DialogTrigger>
       <DialogContent className="neumorphic-card text-white max-w-md">
         <DialogHeader>
           <DialogTitle className="font-dm-sans">
-            Weekly Startup Digest - $2/month
+            Weekly Startup Digest
           </DialogTitle>
         </DialogHeader>
         {success ? (
           <div className="text-white/80 text-sm space-y-2">
-            <p>
-              Almost there! Complete your payment to start receiving premium
-              content.
-            </p>
+            <p>Check your email to confirm your subscription!</p>
             <p className="text-white/60 text-xs">
               You'll get 4-5 detailed company failure stories every week.
             </p>
@@ -220,12 +204,12 @@ export function DigestSubscribeDialog() {
                 ? "Already Subscribed"
                 : loading
                 ? "Processing..."
-                : "Continue to Payment"}
+                : "Subscribe"}
             </NeumorphicButton>
             <div className="text-xs text-white/50 space-y-1">
               <p>• 4-5 detailed startup failure stories weekly</p>
               <p>• Analysis of what went wrong and why</p>
-              <p>• Only $2/month • Cancel anytime</p>
+              <p>• Free • Unsubscribe anytime</p>
             </div>
           </form>
         )}
