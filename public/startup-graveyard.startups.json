@@ -1,0 +1,5502 @@
+[{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dab"
+  },
+  "id": 2,
+  "name": "Loon",
+  "description": "Alphabet's ambitious project to provide internet access via stratospheric balloons.",
+  "founded": 2011,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Telecom",
+  "funding": "$125M",
+  "causeOfShutdown": "Could not reach cost targets",
+  "articleUrl": "https://blog.x.company/loon-off-136ab10332ce",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db0"
+  },
+  "id": 7,
+  "name": "Kettlemill",
+  "description": "Proterra unit focused on electric-bus batteries that was wound down after SPAC merger.",
+  "founded": 2018,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Electric Vehicle",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit wound down after SPAC merger",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db1"
+  },
+  "id": 8,
+  "name": "Dark Sky",
+  "description": "Popular weather app known for hyperlocal and minute-by-minute precipitation forecasts.",
+  "founded": 2011,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Weather Tech",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Acquired-then-sunset by Apple",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db5"
+  },
+  "id": 12,
+  "name": "Starsky Robotics",
+  "description": "Autonomous trucking company focused on self-driving freight transportation.",
+  "founded": 2015,
+  "shutDown": 2020,
+  "country": "USA",
+  "industry": "Autonomous Vehicles",
+  "funding": "$20M",
+  "causeOfShutdown": "Couldn't raise funding for next stage",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dbd"
+  },
+  "id": 20,
+  "name": "Samanage",
+  "description": "Israeli-American IT service management SaaS platform for enterprise customers.",
+  "founded": 2007,
+  "shutDown": 2021,
+  "country": "Israel",
+  "industry": "Enterprise SaaS",
+  "funding": "$100M",
+  "causeOfShutdown": "Acquired then shut by SolarWinds",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc1"
+  },
+  "id": 24,
+  "name": "PepperTap",
+  "description": "Indian grocery delivery startup that operated in multiple cities across India.",
+  "founded": 2014,
+  "shutDown": 2016,
+  "country": "India",
+  "industry": "Grocery Delivery",
+  "funding": "$51M",
+  "causeOfShutdown": "High discount burn",
+  "articleUrl": "https://buildd.co/startup/failure-stories/why-did-peppertap-fail",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc7"
+  },
+  "id": 30,
+  "name": "Zilingo Fashion SaaS",
+  "description": "Singapore-based B2B fashion platform that went into administration after governance probe.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "Singapore",
+  "industry": "B2B Fashion",
+  "funding": "$310M",
+  "causeOfShutdown": "Governance probe; admin",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc8"
+  },
+  "id": 31,
+  "name": "Honestbee",
+  "description": "Singapore-based grocery delivery and concierge service that operated across Asia.",
+  "founded": 2015,
+  "shutDown": 2019,
+  "country": "Singapore",
+  "industry": "Grocery Delivery",
+  "funding": "$50M",
+  "causeOfShutdown": "Insolvency; pandemic blow",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd2"
+  },
+  "id": 41,
+  "name": "Dunzo",
+  "description": "Hyperlocal delivery platform that provided on-demand services for groceries and daily essentials.",
+  "founded": 2015,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Hyperlocal delivery",
+  "funding": "$450M",
+  "causeOfShutdown": "Cash flow issues, high burn, investor pullback",
+  "articleUrl": "https://www.jumpstartmag.com/5-promising-startups-that-shut-down-in-january-2025-what-went-wrong/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd3"
+  },
+  "id": 42,
+  "name": "Blip",
+  "description": "Quick fashion delivery startup that aimed to provide fast fashion delivery services.",
+  "founded": 2022,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Quick fashion delivery",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Funding challenges, go-to-market issues",
+  "articleUrl": "https://www.newindianexpress.com/business/2025/Jul/18/biting-the-dust-only-1-out-of-50-start-ups-secures-series-a-funding-within-18-months",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd4"
+  },
+  "id": 43,
+  "name": "BlueLearn",
+  "description": "Edtech community platform that focused on peer-to-peer learning and skill development.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$4M",
+  "causeOfShutdown": "Low engagement and monetization",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd5"
+  },
+  "id": 44,
+  "name": "Koo",
+  "description": "Indian social media platform positioned as a Twitter alternative with local language support.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Social Media",
+  "funding": "$65M",
+  "causeOfShutdown": "Weak retention, competition",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd6"
+  },
+  "id": 45,
+  "name": "GoldPe",
+  "description": "Fintech startup that offered gold savings and investment products for retail customers.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "Seed",
+  "causeOfShutdown": "Compliance and trust issues",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd8"
+  },
+  "id": 47,
+  "name": "Kenko Health",
+  "description": "Healthtech startup that provided digital health services and telemedicine solutions.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Healthtech",
+  "funding": "$12M",
+  "causeOfShutdown": "High acquisition costs, unprofitable model",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6ddb"
+  },
+  "id": 50,
+  "name": "CodeParrot",
+  "description": "AI startup that developed coding assistance and automated programming tools.",
+  "founded": 2022,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "AI",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Funding crunch, planning issues",
+  "articleUrl": "https://www.newindianexpress.com/business/2025/Jul/18/biting-the-dust-only-1-out-of-50-start-ups-secures-series-a-funding-within-18-months",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6ddf"
+  },
+  "id": 54,
+  "name": "Pandion",
+  "description": "Delivery logistics startup that focused on optimizing last-mile delivery operations.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Delivery logistics",
+  "funding": "$125M",
+  "causeOfShutdown": "Market conditions, failed acquisitions",
+  "articleUrl": "https://www.jumpstartmag.com/5-promising-startups-that-shut-down-in-january-2025-what-went-wrong/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de1"
+  },
+  "id": 56,
+  "name": "Edukoya",
+  "description": "Nigerian edtech platform that provided online learning and educational content.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "Nigeria",
+  "industry": "Edtech",
+  "funding": "$3.5M",
+  "causeOfShutdown": "Market readiness, adoption challenges",
+  "articleUrl": "https://techpoint.africa/insight/african-startups-shutdown-2025/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de7"
+  },
+  "id": 62,
+  "name": "Haus",
+  "description": "Direct-to-consumer aperitifs brand that sold low-alcohol cocktail mixers.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Consumer Goods",
+  "funding": "$17M",
+  "causeOfShutdown": "Lead investor withdrew at last minute",
+  "articleUrl": "https://www.businessinsider.com/haus-low-alcohol-aperitif-startup-shuts-down-2022-6",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dea"
+  },
+  "id": 65,
+  "name": "Kitty Hawk",
+  "description": "Larry Page-backed eVTOL aircraft startup developing flying cars.",
+  "founded": 2010,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Aviation",
+  "funding": "$100M+",
+  "causeOfShutdown": "Pivot fatigue; unclear path to commercialisation",
+  "articleUrl": "https://www.cnbc.com/2022/09/21/larry-page-backed-flying-car-startup-kitty-hawk-is-shutting-down.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dec"
+  },
+  "id": 67,
+  "name": "Reali",
+  "description": "Prop-tech and fintech startup that aimed to simplify home buying and selling.",
+  "founded": 2016,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Proptech",
+  "funding": "$294M",
+  "causeOfShutdown": "Housing-market slowdown, high burn",
+  "articleUrl": "https://techcrunch.com/2022/08/23/reali-shutting-down-after-raising-100m/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dee"
+  },
+  "id": 69,
+  "name": "Udayy",
+  "description": "K-12 edtech platform that provided online learning for school students.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$13M",
+  "causeOfShutdown": "Post-pandemic demand slump",
+  "articleUrl": "https://inc42.com/buzz/edtech-startup-udayy-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df0"
+  },
+  "id": 71,
+  "name": "FTX",
+  "description": "Major cryptocurrency exchange that became one of the largest crypto trading platforms.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "Bahamas",
+  "industry": "Cryptocurrency",
+  "funding": "$1.9B",
+  "causeOfShutdown": "Fraud; Chapter 11 bankruptcy",
+  "articleUrl": "https://www.reuters.com/technology/ftx-files-bankruptcy-sam-bankman-fried-steps-down-2022-11-11/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df6"
+  },
+  "id": 77,
+  "name": "Convoy",
+  "description": "Digital freight marketplace connecting truckers with shippers.",
+  "founded": 2015,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Logistics",
+  "funding": "$1B+",
+  "causeOfShutdown": "VC pull-back; liquidity crunch",
+  "articleUrl": "https://www.cnbc.com/2023/10/19/digital-freight-broker-convoy-closes.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dfe"
+  },
+  "id": 85,
+  "name": "Shift Technologies",
+  "description": "Used-car e-commerce platform for buying and selling pre-owned vehicles.",
+  "founded": 2013,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Automotive",
+  "funding": "$300M+",
+  "causeOfShutdown": "Chapter 11 Nov 2023",
+  "articleUrl": "https://www.autonews.com/retail/shift-technologies-files-chapter-11-bankruptcy-2023-11-01",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e00"
+  },
+  "id": 87,
+  "name": "Arrival",
+  "description": "UK-based electric vehicle company developing commercial vans and buses.",
+  "founded": 2015,
+  "shutDown": 2023,
+  "country": "UK",
+  "industry": "Electric Vehicles",
+  "funding": "$1.6B+",
+  "causeOfShutdown": "Administration",
+  "articleUrl": "https://www.bbc.com/news/business-67160708",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e06"
+  },
+  "id": 93,
+  "name": "Tally",
+  "description": "US fintech debt management app that helped users pay off credit card debt.",
+  "founded": 2015,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$172M",
+  "causeOfShutdown": "Couldn't raise Series D; shut",
+  "articleUrl": "https://techcrunch.com/2024/03/15/tally-debt-management-app-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e07"
+  },
+  "id": 94,
+  "name": "Toplyne",
+  "description": "Indian PLG sales SaaS platform for product-led growth companies.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "SaaS",
+  "funding": "$17M",
+  "causeOfShutdown": "Low revenue; wind-down",
+  "articleUrl": "https://inc42.com/buzz/toplyne-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0c"
+  },
+  "id": 99,
+  "name": "Amazon AMP",
+  "description": "Amazon's live radio app for creating and sharing live audio content.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Social Audio",
+  "funding": "Internal",
+  "causeOfShutdown": "Closed Oct 2024",
+  "articleUrl": "https://www.engadget.com/audio/amazon-is-shutting-down-its-amp-live-radio-app-173026789.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0d"
+  },
+  "id": 100,
+  "name": "Meta Workplace",
+  "description": "Meta's enterprise SaaS platform for workplace collaboration and communication.",
+  "founded": 2016,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Enterprise SaaS",
+  "funding": "Internal",
+  "causeOfShutdown": "Transition to focus on AI and metaverse",
+  "articleUrl": "https://www.engadget.com/meta-is-shutting-down-workplace-to-focus-on-ai-and-metaverse-projects-173026789.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0f"
+  },
+  "id": 102,
+  "name": "Anki",
+  "description": "Consumer robotics company known for Cozmo and Vector robots.",
+  "founded": 2010,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Consumer Robotics",
+  "funding": "$200M",
+  "causeOfShutdown": "Margin squeeze, high hardware costs",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e14"
+  },
+  "id": 107,
+  "name": "Frontrow",
+  "description": "Celebrity-led edtech platform offering courses from famous personalities.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$17M",
+  "causeOfShutdown": "Low retention post-COVID",
+  "articleUrl": "https://inc42.com/buzz/frontrow-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e15"
+  },
+  "id": 108,
+  "name": "GoMechanic PrepBuddy",
+  "description": "Auto-repair preparation platform, part of GoMechanic ecosystem.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Automotive Services",
+  "funding": "Internal",
+  "causeOfShutdown": "Fraudulent revenue; unit axed",
+  "articleUrl": "https://www.livemint.com/companies/news/gomechanic-fraud-how-it-unfolded-11678451231234.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e17"
+  },
+  "id": 110,
+  "name": "Lido Learning",
+  "description": "Canadian edtech platform providing online tutoring for K-12 students.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "Canada",
+  "industry": "Edtech",
+  "funding": "$20M",
+  "causeOfShutdown": "Post-lockdown churn",
+  "articleUrl": "https://inc42.com/buzz/lido-learning-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1e"
+  },
+  "id": 117,
+  "name": "FTX Europe",
+  "description": "European operations of the collapsed FTX cryptocurrency exchange.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "Switzerland",
+  "industry": "Cryptocurrency",
+  "funding": "Internal",
+  "causeOfShutdown": "Licence yanked post parent bankruptcy",
+  "articleUrl": "https://www.coindesk.com/business/2023/03/17/ftx-europe-license-suspended-by-cyprus-regulator/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1f"
+  },
+  "id": 118,
+  "name": "Dukaan Delivery",
+  "description": "Quick-commerce arm of Indian e-commerce platform Dukaan.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Quick Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit axed after poor economics",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e20"
+  },
+  "id": 119,
+  "name": "GoMechanic Spares",
+  "description": "Auto-parts vertical of Indian automotive services platform GoMechanic.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Automotive Services",
+  "funding": "Internal",
+  "causeOfShutdown": "Fraud probe; unit closed",
+  "articleUrl": "https://www.livemint.com/companies/news/gomechanic-fraud-how-it-unfolded-11678451231234.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e22"
+  },
+  "id": 121,
+  "name": "FastAF",
+  "description": "Quick-commerce startup providing ultra-fast delivery services in the US.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Quick Commerce",
+  "funding": "$20M",
+  "causeOfShutdown": "Funding winter",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e26"
+  },
+  "id": 125,
+  "name": "Revl",
+  "description": "Video AI highlights platform that automated sports and event video creation.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Video AI",
+  "funding": "$10M",
+  "causeOfShutdown": "Market fit issues",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e28"
+  },
+  "id": 127,
+  "name": "EnvisionTEC Desktop Health",
+  "description": "3D printing platform focused on dental and healthcare applications.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "3D Printing",
+  "funding": "$100M",
+  "causeOfShutdown": "Write-down; shutdown",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2d"
+  },
+  "id": 132,
+  "name": "InsurStaq.ai",
+  "description": "Indian insurtech startup providing AI-powered insurance solutions.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Insurtech",
+  "funding": "Seed",
+  "causeOfShutdown": "Couldn't clear sandbox",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e33"
+  },
+  "id": 138,
+  "name": "Swiggy Handpicked",
+  "description": "Premium grocery delivery service by Indian food delivery giant Swiggy.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Grocery Delivery",
+  "funding": "Internal",
+  "causeOfShutdown": "Axed",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e37"
+  },
+  "id": 142,
+  "name": "Noom Diabetes",
+  "description": "Digital health sub-brand focused on diabetes management by Noom.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Digital Health",
+  "funding": "Internal",
+  "causeOfShutdown": "Retrenched to core app",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e41"
+  },
+  "id": 152,
+  "name": "OpenAI Voice Engine Beta",
+  "description": "Voice cloning AI technology beta program by OpenAI.",
+  "founded": 2023,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "AI",
+  "funding": "Internal",
+  "causeOfShutdown": "Privacy concerns; pulled back",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e46"
+  },
+  "id": 157,
+  "name": "Ola Electric Scooter S1Pro v1",
+  "description": "First version of S1Pro electric scooter model by Indian EV company Ola Electric.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Electric Vehicles",
+  "funding": "Internal",
+  "causeOfShutdown": "Model recall; discontinued",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e47"
+  },
+  "id": 158,
+  "name": "Bykea Grocery",
+  "description": "Quick-commerce grocery vertical of Pakistani delivery platform Bykea.",
+  "founded": 2021,
+  "shutDown": 2022,
+  "country": "Pakistan",
+  "industry": "Quick Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit shuttered after burn rise",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4a"
+  },
+  "id": 161,
+  "name": "Quibi Final",
+  "description": "Final shutdown completion of short-form streaming platform Quibi.",
+  "founded": 2018,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Streaming",
+  "funding": "$1.7B",
+  "causeOfShutdown": "Low user traction",
+  "articleUrl": "https://www.nytimes.com/2020/10/21/business/media/quibi-shuts-down.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4d"
+  },
+  "id": 164,
+  "name": "Arrival Global Final",
+  "description": "Global shutdown completion of UK electric vehicle manufacturer Arrival.",
+  "founded": 2015,
+  "shutDown": 2024,
+  "country": "UK",
+  "industry": "Electric Vehicles",
+  "funding": "$13B",
+  "causeOfShutdown": "Insolvency; administration",
+  "articleUrl": "https://www.bbc.com/news/business-67160708",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4e"
+  },
+  "id": 165,
+  "name": "Koo Global Final",
+  "description": "Final global shutdown of Indian social media platform Koo across all markets.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Social Media",
+  "funding": "$65M",
+  "causeOfShutdown": "Funding winter; app offline",
+  "articleUrl": "https://techcrunch.com/2024/07/03/indian-social-network-koo-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e54"
+  },
+  "id": 171,
+  "name": "Nintee Final",
+  "description": "Final shutdown of Indian gaming coaching platform Nintee.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Gaming",
+  "funding": "Seed",
+  "causeOfShutdown": "TAM too small",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e56"
+  },
+  "id": 173,
+  "name": "IRL Final",
+  "description": "Final closure of social events app IRL after fake user discovery.",
+  "founded": 2016,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$200M",
+  "causeOfShutdown": "95% fake users; board ordered wind-down",
+  "articleUrl": "https://www.nytimes.com/2023/06/27/technology/irl-shuts-down-fake-users.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e57"
+  },
+  "id": 174,
+  "name": "FrontRow Final",
+  "description": "Final closure of Indian celebrity edtech platform FrontRow.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$17M",
+  "causeOfShutdown": "Low traction post-COVID",
+  "articleUrl": "https://inc42.com/buzz/frontrow-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5a"
+  },
+  "id": 177,
+  "name": "Trell Live Commerce Final",
+  "description": "Final shutdown of Trell's live commerce vertical in India.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Social Commerce",
+  "funding": "$62M",
+  "causeOfShutdown": "Monetisation issues",
+  "articleUrl": "https://inc42.com/buzz/trell-shuts-down-live-commerce/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6daa"
+  },
+  "id": 1,
+  "name": "Katerra",
+  "description": "Construction-tech startup that aimed to revolutionize the building industry with technology and prefabrication.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Construction-tech",
+  "funding": "$2B",
+  "causeOfShutdown": "Mounting cost overruns; filed Chapter 11",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6daf"
+  },
+  "id": 6,
+  "name": "HubHaus",
+  "description": "Co-living rental platform that connected roommates and managed shared housing.",
+  "founded": 2016,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Real Estate",
+  "funding": "$11M",
+  "causeOfShutdown": "COVID crushed rental demand",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db8"
+  },
+  "id": 15,
+  "name": "Shyp",
+  "description": "On-demand package pickup and shipping service that handled logistics for consumers.",
+  "founded": 2013,
+  "shutDown": 2018,
+  "country": "USA",
+  "industry": "Logistics",
+  "funding": "$63M",
+  "causeOfShutdown": "Unit economics unworkable",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dbf"
+  },
+  "id": 22,
+  "name": "Onward Mobility",
+  "description": "Company that attempted to relaunch BlackBerry smartphones with 5G and Android.",
+  "founded": 2020,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Smartphones",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Supply delays; license pulled",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc0"
+  },
+  "id": 23,
+  "name": "Proterra Powered NatGas",
+  "description": "Proterra's natural gas bus unit that was shut down to focus on electric vehicles only.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Transportation",
+  "funding": "Internal",
+  "causeOfShutdown": "Strategy shift to EV only",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc2"
+  },
+  "id": 25,
+  "name": "Doodhwala",
+  "description": "Indian milk and dairy delivery startup that promised fresh dairy products at doorstep.",
+  "founded": 2015,
+  "shutDown": 2017,
+  "country": "India",
+  "industry": "Food Delivery",
+  "funding": "$12M",
+  "causeOfShutdown": "Follow-on funding failed",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc3"
+  },
+  "id": 26,
+  "name": "BimaPe",
+  "description": "Indian insurance technology startup that couldn't reach product-market fit.",
+  "founded": 2020,
+  "shutDown": 2021,
+  "country": "India",
+  "industry": "Insur-tech",
+  "funding": "Seed",
+  "causeOfShutdown": "Couldn't reach PMF metrics",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc5"
+  },
+  "id": 28,
+  "name": "Docprime",
+  "description": "PolicyBazaar's tele-health unit that was shut down due to heavy cash burn.",
+  "founded": 2018,
+  "shutDown": 2021,
+  "country": "India",
+  "industry": "Tele-health",
+  "funding": "$50M (group)",
+  "causeOfShutdown": "Unit axed; heavy cash burn",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dca"
+  },
+  "id": 33,
+  "name": "Garena BeeTalk",
+  "description": "Social messaging app from Garena that lost users to Telegram and other platforms.",
+  "founded": 2013,
+  "shutDown": 2021,
+  "country": "Singapore",
+  "industry": "Social App",
+  "funding": "Internal",
+  "causeOfShutdown": "User migration to Telegram",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dcb"
+  },
+  "id": 34,
+  "name": "EkoRent NopeaRide",
+  "description": "Kenyan electric vehicle ride-hailing service that shut down due to parent company insolvency.",
+  "founded": 2019,
+  "shutDown": 2021,
+  "country": "Kenya",
+  "industry": "EV Ride-hailing",
+  "funding": "Seed",
+  "causeOfShutdown": "Parent insolvency",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dcc"
+  },
+  "id": 35,
+  "name": "Mondo Ride",
+  "description": "Kenyan ride-hailing service that couldn't compete against Uber and Bolt.",
+  "founded": 2018,
+  "shutDown": 2021,
+  "country": "Kenya",
+  "industry": "Ride-hailing",
+  "funding": "$20M",
+  "causeOfShutdown": "Competition vs. Uber & Bolt",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd1"
+  },
+  "id": 40,
+  "name": "Alphonso Audio Ads",
+  "description": "TV advertising technology company that faced regulatory scrutiny and sold assets.",
+  "founded": 2012,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "TV Ad-tech",
+  "funding": "$37M",
+  "causeOfShutdown": "Regulatory scrutiny; asset sale",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6ddd"
+  },
+  "id": 52,
+  "name": "Alza",
+  "description": "Latino-focused fintech startup that provided financial services to underserved communities.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$6.6M",
+  "causeOfShutdown": "Financial viability issues",
+  "articleUrl": "https://www.jumpstartmag.com/5-promising-startups-that-shut-down-in-january-2025-what-went-wrong/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de8"
+  },
+  "id": 63,
+  "name": "Insteon",
+  "description": "Smart-home hardware company that made connected home automation devices.",
+  "founded": 2005,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Smart Home",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Pandemic supply-chain hit; failed sale process",
+  "articleUrl": "https://www.theverge.com/2022/4/18/23030723/insteon-smart-home-company-shuts-down-servers",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de9"
+  },
+  "id": 64,
+  "name": "Kite",
+  "description": "AI coding assistant that provided intelligent code completion for developers.",
+  "founded": 2014,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Developer Tools",
+  "funding": "$21M",
+  "causeOfShutdown": "Tech too early; couldn't monetise",
+  "articleUrl": "https://www.forbes.com/sites/kenrickcai/2022/12/12/github-rival-kite-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6ded"
+  },
+  "id": 68,
+  "name": "ShopX",
+  "description": "Indian retail SaaS and B2C platform for digitizing neighborhood stores.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Retail SaaS",
+  "funding": "$66M",
+  "causeOfShutdown": "Insolvency after poor cash flow",
+  "articleUrl": "https://inc42.com/buzz/shopx-files-for-insolvency/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df1"
+  },
+  "id": 72,
+  "name": "Celsius",
+  "description": "Crypto lending platform that offered high yields on cryptocurrency deposits.",
+  "founded": 2017,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Cryptocurrency",
+  "funding": "$1.7B",
+  "causeOfShutdown": "Insolvency; bankruptcy",
+  "articleUrl": "https://www.cnbc.com/2022/07/13/crypto-firm-celsius-files-for-bankruptcy.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df3"
+  },
+  "id": 74,
+  "name": "Voyager Digital",
+  "description": "Canadian crypto brokerage platform for trading digital assets.",
+  "founded": 2018,
+  "shutDown": 2022,
+  "country": "Canada",
+  "industry": "Cryptocurrency",
+  "funding": "$135M",
+  "causeOfShutdown": "Insolvency after 3AC default",
+  "articleUrl": "https://www.reuters.com/technology/crypto-lender-voyager-digital-files-bankruptcy-2022-07-06/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df7"
+  },
+  "id": 78,
+  "name": "Fuzzy",
+  "description": "Pet-care telehealth platform providing virtual veterinary consultations.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Pet Tech",
+  "funding": "$80M",
+  "causeOfShutdown": "Ran out of cash; abrupt closure",
+  "articleUrl": "https://www.axios.com/2023/02/10/pet-telehealth-startup-fuzzy-shuts-down",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e03"
+  },
+  "id": 90,
+  "name": "Plastiq",
+  "description": "SMB payments platform that allowed businesses to pay with credit cards.",
+  "founded": 2012,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$226M",
+  "causeOfShutdown": "Bankruptcy May 2023",
+  "articleUrl": "https://techcrunch.com/2023/05/24/plastiq-files-for-bankruptcy/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e04"
+  },
+  "id": 91,
+  "name": "Bolt Mobility",
+  "description": "Micromobility company providing electric bikes and scooter sharing services.",
+  "founded": 2017,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Micromobility",
+  "funding": "$40M",
+  "causeOfShutdown": "Abandoned markets; assets seized",
+  "articleUrl": "https://www.smartcitiesdive.com/news/bolt-mobility-shuts-down-electric-bike-scooter/631189/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e08"
+  },
+  "id": 95,
+  "name": "ByteDance Pico",
+  "description": "Chinese VR hardware division of ByteDance focused on virtual reality devices.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "China",
+  "industry": "VR Hardware",
+  "funding": "$2B",
+  "causeOfShutdown": "Sales lag; layoffs",
+  "articleUrl": "https://www.reuters.com/technology/bytedance-scales-back-pico-vr-business-2023-11-07/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0a"
+  },
+  "id": 97,
+  "name": "Spotify Live",
+  "description": "Spotify's social audio feature for live conversations and audio content.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "Sweden",
+  "industry": "Social Audio",
+  "funding": "Internal",
+  "causeOfShutdown": "Shut April 2024",
+  "articleUrl": "https://www.engadget.com/spotify-is-shutting-down-its-live-audio-app-210026367.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0e"
+  },
+  "id": 101,
+  "name": "Adeptmind Retail",
+  "description": "Canadian AI shopping search platform for retail businesses.",
+  "founded": 2016,
+  "shutDown": 2022,
+  "country": "Canada",
+  "industry": "AI Retail",
+  "funding": "$6M",
+  "causeOfShutdown": "Failed to find market fit",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e13"
+  },
+  "id": 106,
+  "name": "Deliveroo Spain",
+  "description": "Spanish operations of UK-based food delivery platform Deliveroo.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "Spain",
+  "industry": "Food Delivery",
+  "funding": "Internal",
+  "causeOfShutdown": "Exited due to rider-law costs",
+  "articleUrl": "https://www.reuters.com/business/retail-consumer/deliveroo-exit-spain-after-new-law-gigs-2021-07-30/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e18"
+  },
+  "id": 111,
+  "name": "Meesho Superstore",
+  "description": "Grocery commerce vertical of Indian social commerce platform Meesho.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Grocery Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit closed; poor unit economics",
+  "articleUrl": "https://inc42.com/buzz/meesho-shuts-down-superstore/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e19"
+  },
+  "id": 112,
+  "name": "Munchery",
+  "description": "Meal delivery startup that provided chef-prepared meals to customers.",
+  "founded": 2010,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Food Delivery",
+  "funding": "$120M",
+  "causeOfShutdown": "Cash burn, logistics complexity",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1c"
+  },
+  "id": 115,
+  "name": "Swvl Inter-city India",
+  "description": "Indian inter-city bus booking service by Egypt-based Swvl.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Transportation",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit closed; high cash burn",
+  "articleUrl": "https://inc42.com/buzz/swvl-exits-india-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e27"
+  },
+  "id": 126,
+  "name": "Wefunder Greenhouse",
+  "description": "Startup accelerator program run by equity crowdfunding platform Wefunder.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Accelerator",
+  "funding": "Internal",
+  "causeOfShutdown": "Closed for costs",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2b"
+  },
+  "id": 130,
+  "name": "Greenikk",
+  "description": "Indian agritech startup providing technology solutions for farmers.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Agritech",
+  "funding": "Seed",
+  "causeOfShutdown": "Market fit issues",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2c"
+  },
+  "id": 131,
+  "name": "Muvin",
+  "description": "Teen fintech platform providing financial services for young users in India.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Teen Fintech",
+  "funding": "$3M",
+  "causeOfShutdown": "Capital shortage",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2e"
+  },
+  "id": 133,
+  "name": "Coinbase Borrow",
+  "description": "Retail lending feature of major US cryptocurrency exchange Coinbase.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Cryptocurrency",
+  "funding": "Internal",
+  "causeOfShutdown": "Regulatory risk",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2f"
+  },
+  "id": 134,
+  "name": "Twitter Circles",
+  "description": "Twitter feature allowing users to share tweets with select groups.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Internal",
+  "causeOfShutdown": "Low usage",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e34"
+  },
+  "id": 139,
+  "name": "Binance NFT Loans",
+  "description": "NFT lending feature of global cryptocurrency exchange Binance.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "Global",
+  "industry": "Cryptocurrency",
+  "funding": "Internal",
+  "causeOfShutdown": "Regulatory pressure",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e35"
+  },
+  "id": 140,
+  "name": "Koo Brazil",
+  "description": "Brazilian operations of Indian social media platform Koo.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "Brazil",
+  "industry": "Social Media",
+  "funding": "Internal",
+  "causeOfShutdown": "Global exit to cut burn",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e36"
+  },
+  "id": 141,
+  "name": "Lensa-AI Prints",
+  "description": "AI-powered merchandise and photo printing service in the US.",
+  "founded": 2022,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "AI Services",
+  "funding": "Internal",
+  "causeOfShutdown": "Pivot abandoned",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3b"
+  },
+  "id": 146,
+  "name": "Klarna UK Travel BNPL",
+  "description": "Travel-focused buy-now-pay-later feature by Klarna in the UK market.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "UK",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Scrapped amid losses",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e42"
+  },
+  "id": 153,
+  "name": "Robinhood UK Launch",
+  "description": "UK expansion attempt by US stock trading app Robinhood.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "UK",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Cancelled again",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e43"
+  },
+  "id": 154,
+  "name": "Klarna Subscription BNPL",
+  "description": "Subscription-based buy-now-pay-later feature by Swedish fintech Klarna.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "Sweden",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Feature closed; losses",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e44"
+  },
+  "id": 155,
+  "name": "Twitch Crown Channel",
+  "description": "Original content programming initiative by Amazon's Twitch streaming platform.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Streaming",
+  "funding": "Internal",
+  "causeOfShutdown": "Cost cuts",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e49"
+  },
+  "id": 160,
+  "name": "Katerra Final Liquidation",
+  "description": "Final liquidation phase of construction-tech startup Katerra.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Construction Tech",
+  "funding": "$2B",
+  "causeOfShutdown": "Ran out of cash; filed Chapter 11",
+  "articleUrl": "https://www.wsj.com/articles/construction-startup-katerra-files-for-bankruptcy-11623077400",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e50"
+  },
+  "id": 167,
+  "name": "Investmint Final",
+  "description": "Final shutdown of Indian retail investing platform Investmint.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "$2M",
+  "causeOfShutdown": "Compliance costs",
+  "articleUrl": "https://inc42.com/buzz/investmint-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e52"
+  },
+  "id": 169,
+  "name": "Stoa Final",
+  "description": "Final shutdown of Indian alternative MBA edtech platform Stoa.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$1M",
+  "causeOfShutdown": "Failed pivot to B2B",
+  "articleUrl": "https://inc42.com/buzz/stoa-shuts-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dac"
+  },
+  "id": 3,
+  "name": "Quibi",
+  "description": "Short-form mobile video streaming platform targeting millennials and Gen Z viewers.",
+  "founded": 2018,
+  "shutDown": 2020,
+  "country": "USA",
+  "industry": "Streaming",
+  "funding": "$1.7B",
+  "causeOfShutdown": "Low user traction, high burn rate",
+  "articleUrl": "https://www.wsj.com/articles/quibi-is-shutting-down-what-went-wrong-11603320319",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dae"
+  },
+  "id": 5,
+  "name": "Houseparty",
+  "description": "Social video chat app that became popular during early pandemic but lost momentum.",
+  "founded": 2016,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Engagement slump post-pandemic",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db3"
+  },
+  "id": 10,
+  "name": "Doppler Labs",
+  "description": "Maker of smart wireless earbuds with real-time audio filtering capabilities.",
+  "founded": 2013,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Audio Tech",
+  "funding": "$51M",
+  "causeOfShutdown": "Couldn't scale manufacturing",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db4"
+  },
+  "id": 11,
+  "name": "Atrium",
+  "description": "Legal-tech startup that aimed to modernize law firm operations with technology.",
+  "founded": 2017,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Legal Tech",
+  "funding": "$75M",
+  "causeOfShutdown": "Pivot fatigue; closed March 2021",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db7"
+  },
+  "id": 14,
+  "name": "Flow Kana",
+  "description": "Cannabis supply-chain platform connecting craft growers with dispensaries.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Cannabis",
+  "funding": "$200M",
+  "causeOfShutdown": "Price crash; insolvency",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dba"
+  },
+  "id": 17,
+  "name": "Jawbone Health",
+  "description": "Wearable fitness tracking company that pioneered activity monitoring devices.",
+  "founded": 1999,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Wearables",
+  "funding": "$930M",
+  "causeOfShutdown": "Litigation, cash burn",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dbc"
+  },
+  "id": 19,
+  "name": "PolarityTE",
+  "description": "Regenerative biotech company developing tissue regeneration and wound healing solutions.",
+  "founded": 2014,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Biotech",
+  "funding": "$130M",
+  "causeOfShutdown": "Clinical failures; delisting",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dbe"
+  },
+  "id": 21,
+  "name": "LG Mobile",
+  "description": "LG's smartphone division that competed with Samsung and Apple in the global market.",
+  "founded": 1995,
+  "shutDown": 2021,
+  "country": "South Korea",
+  "industry": "Smartphones",
+  "funding": "$4.4B (losses)",
+  "causeOfShutdown": "Exited handset business due to sustained losses",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc4"
+  },
+  "id": 27,
+  "name": "Flyrobe",
+  "description": "Indian fashion rental platform that allowed users to rent designer clothes for events.",
+  "founded": 2015,
+  "shutDown": 2020,
+  "country": "India",
+  "industry": "Fashion Rental",
+  "funding": "$12M",
+  "causeOfShutdown": "Pandemic killed events",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dcd"
+  },
+  "id": 36,
+  "name": "Jumia Travel",
+  "description": "African online travel booking platform that was folded back into parent company.",
+  "founded": 2013,
+  "shutDown": 2021,
+  "country": "Africa",
+  "industry": "Online Travel",
+  "funding": "Internal",
+  "causeOfShutdown": "Pandemic; folded into parent",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dce"
+  },
+  "id": 37,
+  "name": "Wingcopter Delivery Pilot",
+  "description": "German drone delivery pilot program that ended as company pivoted to OEM model.",
+  "founded": 2017,
+  "shutDown": 2021,
+  "country": "Germany",
+  "industry": "Drone Logistics",
+  "funding": "Internal",
+  "causeOfShutdown": "Pilot ended, pivot to OEM",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd0"
+  },
+  "id": 39,
+  "name": "ShopX Global",
+  "description": "Australian B2B retail SaaS platform that failed during global expansion attempts.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "Australia",
+  "industry": "B2B Retail SaaS",
+  "funding": "$15M",
+  "causeOfShutdown": "Failed expansion; wound up",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd7"
+  },
+  "id": 46,
+  "name": "Investmint",
+  "description": "Fintech platform focused on retail trading and investment services for Indian users.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "$2M",
+  "causeOfShutdown": "User loss, competition",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dda"
+  },
+  "id": 49,
+  "name": "Stoa",
+  "description": "Edtech platform offering alternative MBA programs and business education courses.",
+  "founded": 2020,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$1M",
+  "causeOfShutdown": "User engagement issues, funding slowdown",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de0"
+  },
+  "id": 55,
+  "name": "Joovlin",
+  "description": "Nigerian fintech startup that provided supply chain financing and payment solutions.",
+  "founded": 2022,
+  "shutDown": 2025,
+  "country": "Nigeria",
+  "industry": "Fintech",
+  "funding": "$100K",
+  "causeOfShutdown": "Low revenue, funding failure",
+  "articleUrl": "https://techpoint.africa/insight/african-startups-shutdown-2025/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de3"
+  },
+  "id": 58,
+  "name": "Canoo",
+  "description": "Electric vehicle startup that developed commercial and consumer electric vehicles.",
+  "founded": 2017,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Electric Vehicles",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Transport sector crash, funding issues",
+  "articleUrl": "https://techfundingnews.com/startup-failures-so-far-the-harsh-reality-of-business-as-usual/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de4"
+  },
+  "id": 59,
+  "name": "Airlift",
+  "description": "Pakistani quick-commerce and logistics startup that provided on-demand delivery services.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "Pakistan",
+  "industry": "Quick-commerce",
+  "funding": "$85M",
+  "causeOfShutdown": "Couldn't close next funding round amid VC pull-back",
+  "articleUrl": "https://techcrunch.com/2022/07/13/airlift-shuts-down-operations-in-pakistan/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6deb"
+  },
+  "id": 66,
+  "name": "Modsy",
+  "description": "Online interior design platform that used 3D technology for home decoration.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Home Services",
+  "funding": "$73M",
+  "causeOfShutdown": "Logistics costs, cash crunch",
+  "articleUrl": "https://techcrunch.com/2022/07/01/modsy-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df5"
+  },
+  "id": 76,
+  "name": "WeWork",
+  "description": "Coworking giant that provided flexible workspace solutions globally.",
+  "founded": 2010,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Real Estate",
+  "funding": "$11B+",
+  "causeOfShutdown": "Chapter 11 after cash-burn & high debt",
+  "articleUrl": "https://www.reuters.com/business/wework-files-bankruptcy-2023-11-07/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df9"
+  },
+  "id": 80,
+  "name": "Veev",
+  "description": "Prefab housing startup that used technology to build sustainable homes.",
+  "founded": 2008,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Construction Tech",
+  "funding": "$597M",
+  "causeOfShutdown": "Funding deal collapsed; liquidation",
+  "articleUrl": "https://www.businessinsider.com/veev-shuts-down-layoffs-prefab-housing-startup-2023-11",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dfa"
+  },
+  "id": 81,
+  "name": "ZestMoney",
+  "description": "Indian buy-now-pay-later fintech platform for digital payments.",
+  "founded": 2015,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "$130M",
+  "causeOfShutdown": "Buyer hunt failed; shut Dec 2023",
+  "articleUrl": "https://techcrunch.com/2023/12/05/zestmoney-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dfc"
+  },
+  "id": 83,
+  "name": "Amazon Halo",
+  "description": "Amazon's health wearables and fitness tracking platform.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Health Tech",
+  "funding": "Internal",
+  "causeOfShutdown": "Axed Aug 2023",
+  "articleUrl": "https://www.cnbc.com/2023/04/26/amazon-halo-health-division-cut-products-discontinued.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dff"
+  },
+  "id": 86,
+  "name": "Lordstown Motors",
+  "description": "Electric vehicle manufacturer focused on commercial trucks.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Electric Vehicles",
+  "funding": "$1.1B+",
+  "causeOfShutdown": "Bankruptcy June 2023",
+  "articleUrl": "https://www.reuters.com/business/autos-transportation/ev-maker-lordstown-motors-files-bankruptcy-2023-06-27/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e02"
+  },
+  "id": 89,
+  "name": "Pear Therapeutics",
+  "description": "Digital therapeutics company developing prescription apps for medical conditions.",
+  "founded": 2013,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Digital Health",
+  "funding": "$400M",
+  "causeOfShutdown": "Chapter 11 April 2023",
+  "articleUrl": "https://www.fiercebiotech.com/medtech/pear-therapeutics-files-bankruptcy-just-four-years-after-spac-deal",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e05"
+  },
+  "id": 92,
+  "name": "Northvolt",
+  "description": "Swedish battery manufacturing company for electric vehicles and energy storage.",
+  "founded": 2016,
+  "shutDown": 2025,
+  "country": "Sweden",
+  "industry": "Battery Tech",
+  "funding": "$13B",
+  "causeOfShutdown": "Bankruptcy filing in March 2025; production ceased by June 2025",
+  "articleUrl": "https://www.reuters.com/business/energy/northvolt-wind-down-battery-making-operation-sweden-by-end-june-2025-05-22/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e09"
+  },
+  "id": 96,
+  "name": "Niantic NBA All-World",
+  "description": "AR gaming app from Niantic featuring basketball-themed augmented reality gameplay.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "AR Gaming",
+  "funding": "Internal",
+  "causeOfShutdown": "Low DAU; sunset",
+  "articleUrl": "https://www.theverge.com/2023/6/27/23775672/niantic-shuts-down-nba-all-world",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e0b"
+  },
+  "id": 98,
+  "name": "Google Jamboard",
+  "description": "Google's educational whiteboard platform for collaborative learning.",
+  "founded": 2016,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "EdTech",
+  "funding": "Internal",
+  "causeOfShutdown": "Axed Sep 2024",
+  "articleUrl": "https://www.theverge.com/2023/9/28/23894501/google-jamboard-whiteboard-app-shutting-down",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e10"
+  },
+  "id": 103,
+  "name": "Better.com India",
+  "description": "Indian unit of mortgage technology platform Better.com.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Layoffs & India wind-down",
+  "articleUrl": "https://inc42.com/buzz/better-com-shuts-down-india-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e11"
+  },
+  "id": 104,
+  "name": "CarDekho Gaadi Stores",
+  "description": "Used-car retail division of CarDekho offering offline car buying experience.",
+  "founded": 2018,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Automotive",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit closed; offline model unviable",
+  "articleUrl": "https://inc42.com/buzz/cardekho-shuts-down-gaadi-stores/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1a"
+  },
+  "id": 113,
+  "name": "OLX Autos India",
+  "description": "Used-car retail business of OLX in the Indian market.",
+  "founded": 2018,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Automotive",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit shutter; exited offline biz",
+  "articleUrl": "https://inc42.com/buzz/olx-autos-shuts-down-india-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1d"
+  },
+  "id": 116,
+  "name": "Trell Live Commerce",
+  "description": "Live commerce feature of Indian social commerce platform Trell.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "India",
+  "industry": "Social Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit axed; monetisation issues",
+  "articleUrl": "https://inc42.com/buzz/trell-shuts-down-live-commerce/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e21"
+  },
+  "id": 120,
+  "name": "Dunzo Dark Stores",
+  "description": "Quick-commerce dark store operations of Indian delivery platform Dunzo.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Quick Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Cash crunch; stores shut",
+  "articleUrl": "https://inc42.com/buzz/dunzo-shuts-dark-stores/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e24"
+  },
+  "id": 123,
+  "name": "Dunzo Food Delivery",
+  "description": "Food delivery vertical of Indian hyperlocal delivery platform Dunzo.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Food Delivery",
+  "funding": "Internal",
+  "causeOfShutdown": "Closed April 2023",
+  "articleUrl": "https://inc42.com/buzz/dunzo-shuts-food-delivery/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e2a"
+  },
+  "id": 129,
+  "name": "Rad Power Bikes",
+  "description": "E-bikes manufacturer providing electric bicycles for consumers.",
+  "founded": 2007,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "E-bikes",
+  "funding": "$300M",
+  "causeOfShutdown": "Layoffs failed; closure",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e30"
+  },
+  "id": 135,
+  "name": "Philips SmartSleep",
+  "description": "Consumer health platform from Philips focused on sleep improvement.",
+  "founded": 2019,
+  "shutDown": 2024,
+  "country": "Netherlands",
+  "industry": "Consumer Health",
+  "funding": "Internal",
+  "causeOfShutdown": "Discontinued",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e32"
+  },
+  "id": 137,
+  "name": "Groupon Goods",
+  "description": "Physical goods marketplace vertical of daily deals platform Groupon.",
+  "founded": 2015,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Wind-down",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e38"
+  },
+  "id": 143,
+  "name": "SoundCloud Repost Select",
+  "description": "Indie music distribution service by German audio platform SoundCloud.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "Germany",
+  "industry": "Music Distribution",
+  "funding": "Internal",
+  "causeOfShutdown": "Product sunset",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3c"
+  },
+  "id": 147,
+  "name": "Varda Space In-Situ",
+  "description": "Space pharmaceutical manufacturing demonstration by Varda Space Industries.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Space Tech",
+  "funding": "Internal",
+  "causeOfShutdown": "Test capsule crash; pivot",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3d"
+  },
+  "id": 148,
+  "name": "Xpressbees Q-commerce",
+  "description": "Quick-commerce dark store pilot by Indian logistics company Xpressbees.",
+  "founded": 2022,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Quick Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit shut; margins",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e48"
+  },
+  "id": 159,
+  "name": "Carousell Recommerce Hub",
+  "description": "B2C refurbished phones marketplace by Singaporean platform Carousell.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "Singapore",
+  "industry": "Recommerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Pilot shut amid costs",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4b"
+  },
+  "id": 162,
+  "name": "NopeaRide Kenya",
+  "description": "Kenyan electric vehicle ride-hailing service and Africa's first EV taxi platform.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "Kenya",
+  "industry": "EV Ride-hailing",
+  "funding": "Seed",
+  "causeOfShutdown": "Parent EkoRent Oy unable to raise funds",
+  "articleUrl": "https://techcrunch.com/2022/05/20/africas-first-ev-taxi-service-nopearide-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4c"
+  },
+  "id": 163,
+  "name": "Onward Mobility Final",
+  "description": "Final closure of BlackBerry smartphone revival attempt by Onward Mobility.",
+  "founded": 2020,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Smartphones",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Product delays; market apathy",
+  "articleUrl": "https://www.theverge.com/2022/2/12/22930759/blackberry-onwardmobility-5g-phone-cancelled",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e55"
+  },
+  "id": 172,
+  "name": "Zume Final Liquidation",
+  "description": "Final liquidation completion of robot pizza startup Zume.",
+  "founded": 2015,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Food Tech",
+  "funding": "$446M",
+  "causeOfShutdown": "Couldn't commercialise tech; shut June 2023",
+  "articleUrl": "https://techcrunch.com/2023/06/09/zume-pizza-robot-startup-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e59"
+  },
+  "id": 176,
+  "name": "Darkstore Final",
+  "description": "Final closure of same-day fulfillment startup Darkstore.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Logistics",
+  "funding": "$30M",
+  "causeOfShutdown": "Profitability elusive",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5b"
+  },
+  "id": 178,
+  "name": "Hopin Events Core Final",
+  "description": "Final closure of Hopin's core virtual events platform business.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "UK",
+  "industry": "Virtual Events",
+  "funding": "$1B+",
+  "causeOfShutdown": "Core asset sold; platform closed",
+  "articleUrl": "https://www.businessinsider.com/hopin-sells-events-business-nearly-worthless-2023-8",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dad"
+  },
+  "id": 4,
+  "name": "Essential Products",
+  "description": "Smartphone company founded by Android creator Andy Rubin, focused on premium devices.",
+  "founded": 2015,
+  "shutDown": 2020,
+  "country": "USA",
+  "industry": "Smartphones",
+  "funding": "$330M",
+  "causeOfShutdown": "Product delays; weak demand",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db2"
+  },
+  "id": 9,
+  "name": "ScaleFactor",
+  "description": "AI-powered accounting and bookkeeping platform for small businesses.",
+  "founded": 2014,
+  "shutDown": 2020,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$104M",
+  "causeOfShutdown": "Product shortcomings; high customer churn",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db6"
+  },
+  "id": 13,
+  "name": "TellSpec",
+  "description": "Canadian startup that developed handheld food scanners to detect allergens and nutrition.",
+  "founded": 2013,
+  "shutDown": 2021,
+  "country": "Canada",
+  "industry": "Food Tech",
+  "funding": "$16M",
+  "causeOfShutdown": "Technology accuracy issues",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6db9"
+  },
+  "id": 16,
+  "name": "Haven",
+  "description": "Healthcare joint venture between Amazon, JPMorgan Chase, and Berkshire Hathaway.",
+  "founded": 2018,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Healthcare",
+  "funding": "Internal",
+  "causeOfShutdown": "Stakeholders pursued solo paths",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dbb"
+  },
+  "id": 18,
+  "name": "Hipmunk",
+  "description": "Travel metasearch engine that made flight and hotel booking more visual and intuitive.",
+  "founded": 2010,
+  "shutDown": 2020,
+  "country": "USA",
+  "industry": "Travel",
+  "funding": "$55M",
+  "causeOfShutdown": "Pandemic travel collapse",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc6"
+  },
+  "id": 29,
+  "name": "Tapzo",
+  "description": "Indian super-app that aggregated multiple services like food, travel, and payments.",
+  "founded": 2016,
+  "shutDown": 2019,
+  "country": "India",
+  "industry": "Super App",
+  "funding": "$27M",
+  "causeOfShutdown": "After Amazon Pay buyout, shut",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dc9"
+  },
+  "id": 32,
+  "name": "HOOQ",
+  "description": "Singapore-based video streaming service that focused on Asian content and markets.",
+  "founded": 2015,
+  "shutDown": 2020,
+  "country": "Singapore",
+  "industry": "Video Streaming",
+  "funding": "$70M",
+  "causeOfShutdown": "Couldn't compete with Netflix",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dcf"
+  },
+  "id": 38,
+  "name": "Woowa Vietnam Kitchen",
+  "description": "Vietnamese cloud kitchen operation that was shut down to refocus on delivery only.",
+  "founded": 2019,
+  "shutDown": 2021,
+  "country": "Vietnam",
+  "industry": "Cloud-kitchen",
+  "funding": "Internal",
+  "causeOfShutdown": "Pandemic; refocused on delivery",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dd9"
+  },
+  "id": 48,
+  "name": "Nintee",
+  "description": "Gaming startup that developed mobile games and gaming platforms for Indian market.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "India",
+  "industry": "Gaming",
+  "funding": "Seed",
+  "causeOfShutdown": "Ineffective monetization",
+  "articleUrl": "https://duniyadaily.com/prominent-indian-startup-closure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6ddc"
+  },
+  "id": 51,
+  "name": "Cushion",
+  "description": "Fintech startup that helped users negotiate and cancel unwanted fees and subscriptions.",
+  "founded": 2016,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$21.6M",
+  "causeOfShutdown": "Failed to scale sustainably",
+  "articleUrl": "https://www.jumpstartmag.com/5-promising-startups-that-shut-down-in-january-2025-what-went-wrong/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dde"
+  },
+  "id": 53,
+  "name": "Level",
+  "description": "Employee benefits platform that provided comprehensive benefits management for companies.",
+  "founded": 2019,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Benefits platform",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Failed to find buyer, abrupt closure",
+  "articleUrl": "https://www.jumpstartmag.com/5-promising-startups-that-shut-down-in-january-2025-what-went-wrong/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de2"
+  },
+  "id": 57,
+  "name": "EasyKnock",
+  "description": "Proptech company that provided sale-leaseback solutions for homeowners.",
+  "founded": 2016,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Proptech",
+  "funding": "$455M",
+  "causeOfShutdown": "Abrupt shutdown amid challenges",
+  "articleUrl": "https://www.reddit.com/r/startups/comments/1ibbkrr/2025_will_likely_be_another_brutal_year_of_failed/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de5"
+  },
+  "id": 60,
+  "name": "Argo AI",
+  "description": "Autonomous driving technology company backed by Ford and Volkswagen.",
+  "founded": 2016,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Autonomous Vehicles",
+  "funding": "$1B+",
+  "causeOfShutdown": "Parent-backers (Ford, VW) stopped further funding",
+  "articleUrl": "https://www.reuters.com/business/autos-transportation/ford-volkswagen-pull-plug-driverless-venture-argo-ai-2022-10-26/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6de6"
+  },
+  "id": 61,
+  "name": "Fast",
+  "description": "One-click checkout startup that aimed to simplify online shopping payments.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "$124M",
+  "causeOfShutdown": "High burn, low revenue; new capital unavailable",
+  "articleUrl": "https://techcrunch.com/2022/04/05/fast-the-one-click-checkout-startup-is-shutting-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6def"
+  },
+  "id": 70,
+  "name": "Zume",
+  "description": "Robot pizza and packaging startup that used automation for food production.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Food Tech",
+  "funding": "$446M",
+  "causeOfShutdown": "Pivot failed; insolvency",
+  "articleUrl": "https://techcrunch.com/2023/06/09/zume-pizza-robot-startup-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df2"
+  },
+  "id": 73,
+  "name": "BlockFi",
+  "description": "Crypto lending and trading platform for retail and institutional clients.",
+  "founded": 2017,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Cryptocurrency",
+  "funding": "$1.3B",
+  "causeOfShutdown": "Contagion from FTX; bankruptcy",
+  "articleUrl": "https://www.bbc.com/news/business-63805317",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df4"
+  },
+  "id": 75,
+  "name": "Terraform Labs",
+  "description": "Singapore-based stablecoin issuer behind the Terra Luna ecosystem.",
+  "founded": 2018,
+  "shutDown": 2022,
+  "country": "Singapore",
+  "industry": "Cryptocurrency",
+  "funding": "$200M",
+  "causeOfShutdown": "Algorithmic stablecoin crash",
+  "articleUrl": "https://www.bbc.com/news/business-61392487",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6df8"
+  },
+  "id": 79,
+  "name": "IRL",
+  "description": "Social events app for discovering and organizing local activities.",
+  "founded": 2016,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$200M",
+  "causeOfShutdown": "95% fake users; board ordered wind-down",
+  "articleUrl": "https://www.nytimes.com/2023/06/27/technology/irl-shuts-down-fake-users.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dfb"
+  },
+  "id": 82,
+  "name": "Google Stadia",
+  "description": "Google's cloud gaming platform for streaming video games.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Gaming",
+  "funding": "Internal",
+  "causeOfShutdown": "Low uptake; closed Jan 2023",
+  "articleUrl": "https://www.bbc.com/news/technology-63035636",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6dfd"
+  },
+  "id": 84,
+  "name": "Meta Portal",
+  "description": "Facebook's smart display hardware for video calling and smart home control.",
+  "founded": 2018,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Smart Home",
+  "funding": "Internal",
+  "causeOfShutdown": "Discontinued Nov 2023",
+  "articleUrl": "https://www.theverge.com/2022/11/11/23453162/meta-portal-smart-display-discontinued-facebook-watch",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e01"
+  },
+  "id": 88,
+  "name": "Babylon Health",
+  "description": "UK-US telehealth platform providing AI-powered healthcare services.",
+  "founded": 2013,
+  "shutDown": 2023,
+  "country": "UK",
+  "industry": "Health Tech",
+  "funding": "$1B+",
+  "causeOfShutdown": "Chapter 7 Oct 2023",
+  "articleUrl": "https://www.theguardian.com/business/2023/aug/07/babylon-healthcare-app-goes-into-administration",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e12"
+  },
+  "id": 105,
+  "name": "Darkstore",
+  "description": "Same-day fulfillment startup providing ultra-fast delivery services.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Logistics",
+  "funding": "$30M",
+  "causeOfShutdown": "Couldn't scale profitably",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e16"
+  },
+  "id": 109,
+  "name": "Hopin Events Core",
+  "description": "Core virtual events business of UK-based Hopin platform.",
+  "founded": 2019,
+  "shutDown": 2022,
+  "country": "UK",
+  "industry": "Virtual Events",
+  "funding": "Internal",
+  "causeOfShutdown": "Core sold for $15M; shutdown seen as failure",
+  "articleUrl": "https://www.businessinsider.com/hopin-sells-events-business-nearly-worthless-2023-8",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e1b"
+  },
+  "id": 114,
+  "name": "Party City",
+  "description": "Event retail chain specializing in party supplies and decorations.",
+  "founded": 1986,
+  "shutDown": 2022,
+  "country": "USA",
+  "industry": "Retail",
+  "funding": "$2B debt",
+  "causeOfShutdown": "Chapter 11; e-commerce disruption",
+  "articleUrl": "https://www.reuters.com/business/retail-consumer/party-city-files-bankruptcy-protection-2023-01-17/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e23"
+  },
+  "id": 122,
+  "name": "Ola Dash",
+  "description": "Quick-commerce vertical of Indian ride-hailing giant Ola.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Quick Commerce",
+  "funding": "Internal",
+  "causeOfShutdown": "Unit economics",
+  "articleUrl": "https://inc42.com/buzz/ola-shuts-down-dash/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e25"
+  },
+  "id": 124,
+  "name": "Vody",
+  "description": "Kenyan video-on-demand streaming platform focusing on local content.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "Kenya",
+  "industry": "Video Streaming",
+  "funding": "Seed",
+  "causeOfShutdown": "Competition vs. Netflix",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e29"
+  },
+  "id": 128,
+  "name": "Mindstrong",
+  "description": "Mental health technology platform using smartphone data for mental health insights.",
+  "founded": 2014,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Mental Health Tech",
+  "funding": "$160M",
+  "causeOfShutdown": "Asset sale amid cash crunch",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e31"
+  },
+  "id": 136,
+  "name": "Carta Liquidity",
+  "description": "Secondary market platform for private company stock trading by Carta.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Shut Feb 2024",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e39"
+  },
+  "id": 144,
+  "name": "Quess Buzzworks",
+  "description": "Gig staffing platform providing flexible workforce solutions in India.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Gig Economy",
+  "funding": "Internal",
+  "causeOfShutdown": "Shut on demand slump",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3a"
+  },
+  "id": 145,
+  "name": "Paytm Postpaid Small-Ticket",
+  "description": "Small-ticket buy-now-pay-later feature of Indian fintech Paytm.",
+  "founded": 2021,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "RBI curbs; paused",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3e"
+  },
+  "id": 149,
+  "name": "Stripe Climate API v1",
+  "description": "Carbon offset tool and API offering by payments giant Stripe.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Climate Tech",
+  "funding": "Internal",
+  "causeOfShutdown": "Retired for low uptake",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e3f"
+  },
+  "id": 150,
+  "name": "Tesla Solar Roof v2",
+  "description": "Second version of Tesla's solar roof tile energy hardware product.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Energy Hardware",
+  "funding": "Internal",
+  "causeOfShutdown": "Production halt",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e40"
+  },
+  "id": 151,
+  "name": "BetterPlace Warehouse Staffing",
+  "description": "Warehouse staffing vertical of Indian workforce management platform BetterPlace.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Workforce Management",
+  "funding": "Internal",
+  "causeOfShutdown": "High churn",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e45"
+  },
+  "id": 156,
+  "name": "ZipRecruiter Startups Vertical",
+  "description": "Startup-focused hiring vertical of job board platform ZipRecruiter.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "HR Tech",
+  "funding": "Internal",
+  "causeOfShutdown": "Focus shift",
+  "articleUrl": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e4f"
+  },
+  "id": 166,
+  "name": "Kenko Health Final",
+  "description": "Final closure of Indian health-insurtech platform Kenko Health.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Health Tech",
+  "funding": "$12M",
+  "causeOfShutdown": "Regulatory capital needs",
+  "articleUrl": "https://inc42.com/buzz/kenko-health-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e51"
+  },
+  "id": 168,
+  "name": "Bluelearn Final",
+  "description": "Final closure of Indian ed-community platform Bluelearn.",
+  "founded": 2020,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Edtech",
+  "funding": "$4M",
+  "causeOfShutdown": "User retention drop",
+  "articleUrl": "https://inc42.com/buzz/bluelearn-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e53"
+  },
+  "id": 170,
+  "name": "GoldPe Final",
+  "description": "Final closure of Indian neo-banking platform GoldPe.",
+  "founded": 2021,
+  "shutDown": 2024,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "Seed",
+  "causeOfShutdown": "Licence hurdles",
+  "articleUrl": "https://inc42.com/buzz/goldpe-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e58"
+  },
+  "id": 175,
+  "name": "Better.com India Final",
+  "description": "Final wind-down of Better.com's Indian mortgage technology operations.",
+  "founded": 2020,
+  "shutDown": 2023,
+  "country": "India",
+  "industry": "Fintech",
+  "funding": "Internal",
+  "causeOfShutdown": "Local wind-down",
+  "articleUrl": "https://inc42.com/buzz/better-com-shuts-down-india-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-29T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5c"
+  },
+  "id": 179,
+  "name": "Juicero",
+  "description": "Countertop cold-press juice hardware + produce packs subscription.",
+  "founded": 2013,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Hardware/Foodtech",
+  "funding": "$120M",
+  "causeOfShutdown": "Hardware cost vs. value; weak product–market fit.",
+  "articleUrl": "https://www.nytimes.com/2017/09/01/technology/juicero-start-up-shuts-down.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5d"
+  },
+  "id": 180,
+  "name": "Jawbone",
+  "description": "Consumer wearables/speakers (UP fitness bands).",
+  "founded": 1999,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Hardware/Wearables",
+  "funding": "$900M+",
+  "causeOfShutdown": "Liquidity crisis; intense competition.",
+  "articleUrl": "https://www.businessinsider.com/jawbone-shutting-down-liquidating-assets-2017-7",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5e"
+  },
+  "id": 181,
+  "name": "Yik Yak",
+  "description": "Anonymized, location-based social network for campuses.",
+  "founded": 2013,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Social",
+  "funding": "$73M",
+  "causeOfShutdown": "Abuse/moderation, user decline.",
+  "articleUrl": "https://techcrunch.com/2017/04/28/yik-yak-shuts-down-after-square-paid-1-million-for-its-engineers/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e5f"
+  },
+  "id": 182,
+  "name": "RethinkDB",
+  "description": "Open-source distributed database and hosted DB services.",
+  "founded": 2009,
+  "shutDown": 2016,
+  "country": "USA",
+  "industry": "Developer tools/DB",
+  "funding": "$12M",
+  "causeOfShutdown": "Couldn't build sustainable business model.",
+  "articleUrl": "https://rethinkdb.com/blog/rethinkdb-shutdown/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e60"
+  },
+  "id": 183,
+  "name": "Lily Robotics",
+  "description": "Camera drone that promised \"throw-and-shoot\" autonomy.",
+  "founded": 2013,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Drones/Hardware",
+  "funding": "$15M + preorders",
+  "causeOfShutdown": "Product never shipped; legal/regulatory issues.",
+  "articleUrl": "https://www.theverge.com/2017/1/12/14248988/lily-drone-tracking-dead-refunds",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e61"
+  },
+  "id": 184,
+  "name": "Theranos",
+  "description": "Blood-testing biotech claiming many tests from a finger-prick.",
+  "founded": 2003,
+  "shutDown": 2018,
+  "country": "USA",
+  "industry": "Biotech/Medtech",
+  "funding": "$700M",
+  "causeOfShutdown": "Fraud revelations; regulatory failures.",
+  "articleUrl": "https://www.wsj.com/articles/blood-testing-firm-theranos-to-dissolve-1536115130",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e62"
+  },
+  "id": 185,
+  "name": "MoviePass",
+  "description": "$10/mo. movie ticket subscription.",
+  "founded": 2011,
+  "shutDown": 2019,
+  "country": "USA",
+  "industry": "Consumer subscription",
+  "funding": "Undisclosed (public parent)",
+  "causeOfShutdown": "Unsustainable unit economics; debt.",
+  "articleUrl": "https://www.theverge.com/2019/9/13/20864873/moviepass-app-shutdown-out-of-business-movies-subscription",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e63"
+  },
+  "id": 186,
+  "name": "Jibo",
+  "description": "Social home robot assistant.",
+  "founded": 2012,
+  "shutDown": 2019,
+  "country": "USA",
+  "industry": "Robotics/AI",
+  "funding": "$73M",
+  "causeOfShutdown": "High costs; slow adoption.",
+  "articleUrl": "https://www.theverge.com/2019/6/19/18682780/jibo-death-server-update-social-robot-mourning",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e64"
+  },
+  "id": 187,
+  "name": "Parse (Facebook)",
+  "description": "BaaS for mobile apps (acquired 2013; service later ended).",
+  "founded": 2011,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Dev tools/BaaS",
+  "funding": "$7M pre-acq",
+  "causeOfShutdown": "Corporate wind-down post-acquisition.",
+  "articleUrl": "https://techcrunch.com/2017/01/30/facebooks-parse-developer-platform-is-shutting-down-today/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e65"
+  },
+  "id": 188,
+  "name": "Pebble",
+  "description": "Crowdfunded smartwatch pioneer (assets sold to Fitbit).",
+  "founded": 2012,
+  "shutDown": 2016,
+  "country": "USA",
+  "industry": "Wearables",
+  "funding": "$43M+ crowdfunding",
+  "causeOfShutdown": "Acquisition then sunset of services.",
+  "articleUrl": "https://www.theverge.com/2016/12/7/13867158/fitbit-buys-pebble-smartwatch-acquisition-deal",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e66"
+  },
+  "id": 189,
+  "name": "Drive.ai",
+  "description": "Autonomous driving software; acquired by Apple before shutdown.",
+  "founded": 2015,
+  "shutDown": 2019,
+  "country": "USA",
+  "industry": "AV/AI",
+  "funding": "$77M",
+  "causeOfShutdown": "Cash crunch; acqui-hire to Apple.",
+  "articleUrl": "https://techcrunch.com/2019/06/25/self-driving-startup-drive-ai-is-closing-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e67"
+  },
+  "id": 190,
+  "name": "Powa Technologies",
+  "description": "UK payments/e-commerce platform.",
+  "founded": 2007,
+  "shutDown": 2016,
+  "country": "UK",
+  "industry": "Fintech/Payments",
+  "funding": "$200M",
+  "causeOfShutdown": "Overexpansion; revenue shortfalls.",
+  "articleUrl": "https://www.ft.com/content/8492fd1c-9494-3bab-985f-4a89398708dc",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e68"
+  },
+  "id": 191,
+  "name": "Made.com",
+  "description": "Digitally native furniture brand; went into administration.",
+  "founded": 2010,
+  "shutDown": 2022,
+  "country": "UK",
+  "industry": "E-commerce",
+  "funding": "£100M+",
+  "causeOfShutdown": "Supply chain shocks; demand slump.",
+  "articleUrl": "https://www.theguardian.com/business/2022/nov/09/madecom-enters-administration-putting-about-500-jobs-at-risk",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e69"
+  },
+  "id": 192,
+  "name": "Pollen",
+  "description": "Events/travel experiences marketplace.",
+  "founded": 2014,
+  "shutDown": 2022,
+  "country": "UK",
+  "industry": "Travel/Marketplaces",
+  "funding": "$150M",
+  "causeOfShutdown": "Cash burn; COVID overhang.",
+  "articleUrl": "https://www.theguardian.com/business/2023/apr/15/a-naive-and-stupid-idea-how-rishi-sunaks-future-fund-spent-millions-on-failed-firms",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6a"
+  },
+  "id": 193,
+  "name": "VanMoof",
+  "description": "Connected e-bikes (direct-to-consumer).",
+  "founded": 2009,
+  "shutDown": 2023,
+  "country": "Netherlands",
+  "industry": "Micromobility/Hardware",
+  "funding": "$200M",
+  "causeOfShutdown": "Warranty/liquidity strain; ops costs.",
+  "articleUrl": "https://www.theverge.com/2023/7/18/23798584/vanmoof-e-bikes-is-bankrupt",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6b"
+  },
+  "id": 194,
+  "name": "Volta Trucks",
+  "description": "Commercial electric trucks; pilot production in EU.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "Sweden/UK",
+  "industry": "Climate/EV",
+  "funding": "$400M",
+  "causeOfShutdown": "Supplier/recall shock; financing gap.",
+  "articleUrl": "https://www.ft.com/content/97b2d3d6-cac4-4f72-a9cd-ba8aaaf4b249",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6c"
+  },
+  "id": 195,
+  "name": "Nuri (Bitwala)",
+  "description": "German crypto-banking app with custodial accounts.",
+  "founded": 2015,
+  "shutDown": 2022,
+  "country": "Germany",
+  "industry": "Fintech/Crypto",
+  "funding": "$45M",
+  "causeOfShutdown": "Contagion from crypto market; insolvency.",
+  "articleUrl": "https://cointelegraph.com/news/german-crypto-bank-nuri-tells-500k-users-to-withdraw-funds-ahead-of-shut-down",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6d"
+  },
+  "id": 196,
+  "name": "Navya",
+  "description": "Autonomous shuttle maker.",
+  "founded": 2014,
+  "shutDown": 2023,
+  "country": "France",
+  "industry": "AV/AI/Transport",
+  "funding": "$220M (IPO +)",
+  "causeOfShutdown": "Funding dried up post-pilot stage.",
+  "articleUrl": "https://www.navya.tech/en/navya-announces-the-opening-of-a-receivership-procedure/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6e"
+  },
+  "id": 197,
+  "name": "Hyperloop One (Virgin Hyperloop)",
+  "description": "High-speed tube transport developer.",
+  "founded": 2014,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Transport/Space-adjacent",
+  "funding": "$450M+",
+  "causeOfShutdown": "No viable path to commercialization.",
+  "articleUrl": "https://www.theverge.com/2023/12/21/24011448/hyperloop-one-shut-down-layoff-closing-elon-musk",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e6f"
+  },
+  "id": 198,
+  "name": "Virgin Orbit",
+  "description": "Small-sat launch (spun out of Virgin Galactic).",
+  "founded": 2017,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "Space tech",
+  "funding": "$1B",
+  "causeOfShutdown": "Failed launch; capital crunch; liquidation.",
+  "articleUrl": "https://www.reuters.com/markets/deals/virgin-orbit-sell-its-manufacturing-facility-rocket-lab-2023-05-23/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e70"
+  },
+  "id": 199,
+  "name": "Olive AI",
+  "description": "Healthcare automation/AI RPA.",
+  "founded": 2012,
+  "shutDown": 2023,
+  "country": "USA",
+  "industry": "AI/Healthcare IT",
+  "funding": "$850M",
+  "causeOfShutdown": "Strategy resets; couldn't reach profitability.",
+  "articleUrl": "https://techcrunch.com/2020/12/05/how-one-company-reached-revenues-of-200m-without-vc-money/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e71"
+  },
+  "id": 200,
+  "name": "Ghost Autonomy",
+  "description": "AV software stack for consumer vehicles.",
+  "founded": 2017,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "AV/AI",
+  "funding": "$200M+",
+  "causeOfShutdown": "Capital market shift for AV; shutdown.",
+  "articleUrl": "https://techcrunch.com/2024/04/03/openai-backed-ghost-autonomy-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e72"
+  },
+  "id": 201,
+  "name": "Simple (BBVA's neobank)",
+  "description": "US neobank acquired by BBVA; service closed.",
+  "founded": 2009,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Fintech/Neobank",
+  "funding": "$15M pre-acq",
+  "causeOfShutdown": "Acquisition-then-shutdown by parent.",
+  "articleUrl": "https://www.theverge.com/2021/5/9/22427811/simple-bbva-transition-errors-bank-shutdown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e73"
+  },
+  "id": 202,
+  "name": "Xinja",
+  "description": "Australian neobank (consumer deposits).",
+  "founded": 2017,
+  "shutDown": 2020,
+  "country": "Australia",
+  "industry": "Fintech/Neobank",
+  "funding": "$100M+",
+  "causeOfShutdown": "Withdrew banking products; funding shortfall.",
+  "articleUrl": "https://www.abc.net.au/news/2021-02-12/accc-wants-to-keep-big-four-from-swallowing-up-all-neobanks/13145256",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e74"
+  },
+  "id": 203,
+  "name": "Volt Bank",
+  "description": "Australian neobank with restricted ADI turned full ADI.",
+  "founded": 2017,
+  "shutDown": 2022,
+  "country": "Australia",
+  "industry": "Fintech/Neobank",
+  "funding": "$100M+",
+  "causeOfShutdown": "Couldn't raise Series F; returns deposits.",
+  "articleUrl": "https://www.theguardian.com/business/2025/mar/12/ev-battery-startup-northvolt-files-for-bankruptcy-in-sweden",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e75"
+  },
+  "id": 204,
+  "name": "Sendy",
+  "description": "Kenyan B2B logistics/fulfilment platform.",
+  "founded": 2014,
+  "shutDown": 2023,
+  "country": "Kenya",
+  "industry": "Logistics",
+  "funding": "$20M+",
+  "causeOfShutdown": "Funding winter; pivot fatigue.",
+  "articleUrl": "https://techcrunch.com/2023/08/08/kenyan-logistics-startup-sendy-shuts-down-embarks-on-asset-sale/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e76"
+  },
+  "id": 205,
+  "name": "Kune Foods",
+  "description": "Nairobi-based ready-meal/food delivery.",
+  "founded": 2021,
+  "shutDown": 2022,
+  "country": "Kenya",
+  "industry": "Food delivery",
+  "funding": "$1M+",
+  "causeOfShutdown": "Unit economics; rapid burn.",
+  "articleUrl": "https://techcrunch.com/2022/06/22/kune-food-shuts-down-barely-a-year-after-starting-kenya-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e77"
+  },
+  "id": 206,
+  "name": "54gene",
+  "description": "Nigerian genomics/biobank startup.",
+  "founded": 2019,
+  "shutDown": 2023,
+  "country": "Nigeria",
+  "industry": "Biotech/Genomics",
+  "funding": "$45M",
+  "causeOfShutdown": "Governance turmoil; funding downturn.",
+  "articleUrl": "https://techcabal.com/2023/09/27/54gene-shutting-down-operations/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e78"
+  },
+  "id": 207,
+  "name": "Stoqo",
+  "description": "Indonesian B2B food-supply marketplace.",
+  "founded": 2017,
+  "shutDown": 2020,
+  "country": "Indonesia",
+  "industry": "Agri/Logistics",
+  "funding": "$9M",
+  "causeOfShutdown": "COVID shock + supply chain strain.",
+  "articleUrl": "https://www.techinasia.com/real-reasons-stoqos-sudden-demise",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e79"
+  },
+  "id": 208,
+  "name": "Sorabel (Sale Stock)",
+  "description": "Indonesian fast-fashion e-commerce.",
+  "founded": 2014,
+  "shutDown": 2020,
+  "country": "Indonesia",
+  "industry": "E-commerce",
+  "funding": "$27M",
+  "causeOfShutdown": "Cash flow issues; COVID impact.",
+  "articleUrl": "https://e27.co/indonesian-e-commerce-platform-sorabel-to-shut-down-by-end-of-july-20200723/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7a"
+  },
+  "id": 209,
+  "name": "iFlix",
+  "description": "SEA streaming service; assets sold to Tencent.",
+  "founded": 2014,
+  "shutDown": 2020,
+  "country": "Malaysia",
+  "industry": "Media/Streaming",
+  "funding": "$348M",
+  "causeOfShutdown": "Acquisition-then-service wind-down.",
+  "articleUrl": "https://variety.com/2020/biz/asia/tencent-buying-iflix-south-east-asian-streamer-1234643729/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7b"
+  },
+  "id": 210,
+  "name": "Hike StickerChat",
+  "description": "India social/chat app (pivoted away; app shut).",
+  "founded": 2012,
+  "shutDown": 2021,
+  "country": "India",
+  "industry": "Social/Messaging",
+  "funding": "$260M+",
+  "causeOfShutdown": "Competitive pressure; pivot to apps/web3.",
+  "articleUrl": "https://techcrunch.com/2021/01/18/tencent-backed-hike-once-indias-answer-to-whatsapp-has-given-up-on-messaging/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7c"
+  },
+  "id": 211,
+  "name": "Fisker",
+  "description": "EV maker (consumer SUVs; outsourced manufacturing).",
+  "founded": 2016,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Climate/EV",
+  "funding": "$1.9B+",
+  "causeOfShutdown": "Recalls, liquidity crisis; bankruptcy.",
+  "articleUrl": "https://www.reuters.com/business/autos-transportation/ev-startup-fisker-files-bankruptcy-2024-06-18/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7d"
+  },
+  "id": 212,
+  "name": "IndiEV",
+  "description": "EV startup behind the INDI One prototype.",
+  "founded": 2017,
+  "shutDown": 2024,
+  "country": "USA",
+  "industry": "Climate/EV",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Couldn't scale; bankruptcy filing.",
+  "articleUrl": "https://techcrunch.com/2025/07/08/why-this-los-angeles-vc-firm-was-an-early-investor-in-slate-auto/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7e"
+  },
+  "id": 213,
+  "name": "Byton",
+  "description": "China-based premium EV brand (M-Byte concept).",
+  "founded": 2016,
+  "shutDown": 2020,
+  "country": "China",
+  "industry": "Climate/EV",
+  "funding": "$1.2B",
+  "causeOfShutdown": "Cash crunch; production never started.",
+  "articleUrl": "https://www.theverge.com/2020/6/30/21308389/byton-chinese-ev-startup-operations-suspended-furloughs",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e7f"
+  },
+  "id": 214,
+  "name": "Element AI",
+  "description": "Enterprise AI services/tools (Canada); sold to ServiceNow.",
+  "founded": 2016,
+  "shutDown": 2020,
+  "country": "Canada",
+  "industry": "AI/ML (Enterprise)",
+  "funding": "$250M",
+  "causeOfShutdown": "Acquisition; products wound down.",
+  "articleUrl": "https://techcrunch.com/2020/11/30/servicenow-is-acquiring-element-ai-the-canadian-startup-building-ai-services-for-enterprises/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e80"
+  },
+  "id": 215,
+  "name": "Britishvolt",
+  "description": "UK gigafactory battery startup.",
+  "founded": 2019,
+  "shutDown": 2024,
+  "country": "UK",
+  "industry": "Climate/Storage",
+  "funding": "£200M+ commitments",
+  "causeOfShutdown": "Funding collapse; no customers.",
+  "articleUrl": "https://www.wired.com/story/the-collapse-of-britishvolt/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e81"
+  },
+  "id": 216,
+  "name": "Tilt",
+  "description": "P2P social payments app (YC W12), acquired by Airbnb then closed.",
+  "founded": 2012,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Fintech/Payments",
+  "funding": "$67M",
+  "causeOfShutdown": "Acquisition-then-shutdown.",
+  "articleUrl": "https://techcrunch.com/2017/02/22/airbnb-finalizes-deal-to-buy-social-payments-startups-tilt/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e82"
+  },
+  "id": 217,
+  "name": "Quidsi (Diapers.com)",
+  "description": "E-commerce (diapers/household), acquired by Amazon in 2011.",
+  "founded": 2005,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "$79M pre-acq",
+  "causeOfShutdown": "Post-acquisition shutdown (unprofitable).",
+  "articleUrl": "https://www.axios.com/2017/12/15/amazon-to-shut-down-quidsi-division-for-not-being-profitable-1513301255",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e83"
+  },
+  "id": 218,
+  "name": "Bench Accounting",
+  "description": "Online bookkeeping for SMBs.",
+  "founded": 2012,
+  "shutDown": 2025,
+  "country": "Canada",
+  "industry": "SaaS/Fintech",
+  "funding": "$50M+",
+  "causeOfShutdown": "Abrupt shutdown; asset sale.",
+  "articleUrl": "https://techcrunch.com/2024/12/30/bench-to-be-acquired-after-abruptly-shutting-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6888eb8c013c543b1faf6e84"
+  },
+  "id": 219,
+  "name": "Solid (BaaS)",
+  "description": "Banking-as-a-service platform for fintechs.",
+  "founded": 2018,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Fintech/Infrastructure",
+  "funding": "$63M",
+  "causeOfShutdown": "Bankruptcy amid BaaS turbulence.",
+  "articleUrl": "https://techcrunch.com/2025/04/09/solid-which-claimed-to-be-the-aws-of-fintech-files-for-bankruptcy-after-raising-nearly-81m-in-funding/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 220,
+  "name": "Orkut",
+  "description": "Social networking site created by Google, popular in Brazil and India before declining.",
+  "founded": 2004,
+  "shutDown": 2014,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Internal",
+  "causeOfShutdown": "Declining user base; competition from Facebook",
+  "articleUrl": "https://www.forbes.com/sites/ellenhuet/2014/06/30/google-kills-orkut/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 221,
+  "name": "Vine",
+  "description": "Short-form video sharing app acquired by Twitter, known for 6-second looping videos.",
+  "founded": 2012,
+  "shutDown": 2017,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Acquired for $30M",
+  "causeOfShutdown": "High costs; competition from Instagram and Snapchat",
+  "articleUrl": "https://www.theverge.com/2016/10/28/13456208/why-vine-died-twitter-shutdown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 222,
+  "name": "Google+",
+  "description": "Google's social networking platform aimed at competing with Facebook.",
+  "founded": 2011,
+  "shutDown": 2019,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Internal",
+  "causeOfShutdown": "Low user engagement; data privacy issues",
+  "articleUrl": "https://www.theverge.com/2019/4/2/18290637/google-plus-shutdown-consumer-personal-account-delete",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 223,
+  "name": "Path",
+  "description": "Mobile photo-sharing and messaging app focused on private social networking.",
+  "founded": 2010,
+  "shutDown": 2018,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$70M",
+  "causeOfShutdown": "Declining users; acquired and shut down",
+  "articleUrl": "https://techcrunch.com/2018/09/17/rip-path/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 224,
+  "name": "Bebo",
+  "description": "Early social networking site popular in the UK and Ireland.",
+  "founded": 2005,
+  "shutDown": 2013,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Acquired for $850M",
+  "causeOfShutdown": "Competition from Facebook; multiple ownership changes",
+  "articleUrl": "https://www.theguardian.com/media/2010/apr/07/bebo-facebook",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 225,
+  "name": "Friendster",
+  "description": "Pioneer social networking site that predated Facebook.",
+  "founded": 2002,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$48M",
+  "causeOfShutdown": "Loss of users to competitors; pivoted and failed",
+  "articleUrl": "https://en.wikipedia.org/wiki/Friendster",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 226,
+  "name": "Rdio",
+  "description": "Music streaming service known for its user interface and social features.",
+  "founded": 2010,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "Music Streaming",
+  "funding": "$125M",
+  "causeOfShutdown": "Acquired by Pandora; service discontinued",
+  "articleUrl": "https://www.theverge.com/2015/11/17/9750890/rdio-shutdown-pandora",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 227,
+  "name": "Grooveshark",
+  "description": "Music streaming platform that allowed user-uploaded content.",
+  "founded": 2006,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "Music Streaming",
+  "funding": "$5M",
+  "causeOfShutdown": "Legal battles over copyright infringement",
+  "articleUrl": "https://www.theverge.com/2015/4/30/8526105/grooveshark-shuts-down-settles-with-labels",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 228,
+  "name": "Yahoo Answers",
+  "description": "Community-driven Q&A platform owned by Yahoo.",
+  "founded": 2005,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Q&A Platform",
+  "funding": "Internal",
+  "causeOfShutdown": "Declining popularity; focus on other products",
+  "articleUrl": "https://www.theverge.com/2021/4/5/22368488/yahoo-answers-shutdown-may-4-internet-era-over-rip",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 229,
+  "name": "Google Wave",
+  "description": "Real-time collaboration tool combining email, chat, and documents.",
+  "founded": 2009,
+  "shutDown": 2012,
+  "country": "USA",
+  "industry": "Collaboration Tools",
+  "funding": "Internal",
+  "causeOfShutdown": "Low adoption; complexity",
+  "articleUrl": "https://www.theverge.com/2012/4/30/2989189/google-wave-shutdown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 230,
+  "name": "Periscope",
+  "description": "Live video streaming app acquired by Twitter.",
+  "founded": 2015,
+  "shutDown": 2021,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "Acquired for $100M",
+  "causeOfShutdown": "Declining usage; integrated into Twitter",
+  "articleUrl": "https://techcrunch.com/2020/12/15/periscope-will-shut-down-by-march-twitter-confirms/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 231,
+  "name": "Meerkat",
+  "description": "Live streaming app that popularized mobile live video.",
+  "founded": 2015,
+  "shutDown": 2016,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$14M",
+  "causeOfShutdown": "Competition from Periscope and Facebook Live",
+  "articleUrl": "https://techcrunch.com/2016/09/30/meerkat-star-of-2015-is-officially-dead/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 232,
+  "name": "Secret",
+  "description": "Anonymous social sharing app for secrets and gossip.",
+  "founded": 2013,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "Social Media",
+  "funding": "$35M",
+  "causeOfShutdown": "Ethical concerns; user abuse",
+  "articleUrl": "https://techcrunch.com/2015/04/29/psst/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 233,
+  "name": "Homejoy",
+  "description": "On-demand home cleaning service platform.",
+  "founded": 2012,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "Marketplace",
+  "funding": "$40M",
+  "causeOfShutdown": "Legal issues with worker classification",
+  "articleUrl": "https://techcrunch.com/2015/07/17/homejoy-is-shutting-down-at-the-end-of-the-month/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 234,
+  "name": "Fab.com",
+  "description": "Flash sales e-commerce site for design products.",
+  "founded": 2010,
+  "shutDown": 2015,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "$336M",
+  "causeOfShutdown": "Overexpansion; pivot failures",
+  "articleUrl": "https://www.theverge.com/2015/3/3/8140367/fab-acquired-pch-jason-goldberg",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 235,
+  "name": "Pets.com",
+  "description": "Online pet supplies retailer famous for its sock puppet mascot.",
+  "founded": 1998,
+  "shutDown": 2000,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "$82M",
+  "causeOfShutdown": "Dot-com bubble burst; unsustainable losses",
+  "articleUrl": "https://www.nytimes.com/2000/11/08/business/technology-petscom-sock-puppet-s-home-will-close.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 236,
+  "name": "Webvan",
+  "description": "Online grocery delivery service with ambitious expansion plans.",
+  "founded": 1996,
+  "shutDown": 2001,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "$800M",
+  "causeOfShutdown": "High infrastructure costs; dot-com crash",
+  "articleUrl": "https://www.nytimes.com/2001/07/10/business/an-ambitious-internet-grocer-is-out-of-both-cash-and-ideas.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 237,
+  "name": "Kozmo.com",
+  "description": "One-hour delivery service for various consumer goods.",
+  "founded": 1998,
+  "shutDown": 2001,
+  "country": "USA",
+  "industry": "Delivery",
+  "funding": "$280M",
+  "causeOfShutdown": "Unsustainable business model; dot-com bust",
+  "articleUrl": "https://en.wikipedia.org/wiki/Kozmo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 238,
+  "name": "Boo.com",
+  "description": "Online fashion retailer with advanced 3D technology.",
+  "founded": 1998,
+  "shutDown": 2000,
+  "country": "UK",
+  "industry": "E-commerce",
+  "funding": "$135M",
+  "causeOfShutdown": "Technical issues; high burn rate",
+  "articleUrl": "https://www.theguardian.com/technology/2005/may/16/media.business",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 239,
+  "name": "eToys.com",
+  "description": "Online toy retailer that went public during the dot-com boom.",
+  "founded": 1997,
+  "shutDown": 2001,
+  "country": "USA",
+  "industry": "E-commerce",
+  "funding": "$166M",
+  "causeOfShutdown": "Dot-com crash; overexpansion",
+  "articleUrl": "https://www.nytimes.com/2001/02/06/business/technology-etoys-to-lay-off-its-remaining-workers.html",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 240,
+  "name": "NextRNA Therapeutics",
+  "description": "Biotechnology company focused on RNA-targeted therapies.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "$56M",
+  "causeOfShutdown": "Not specified",
+  "articleUrl": "https://www.fiercebiotech.com/biotech/bayer-allied-nextrna-therapeutics-announces-plan-wind-down-operations",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 241,
+  "name": "Hookipa Pharma",
+  "description": "Biotechnology company developing immunotherapies for infectious diseases and cancer.",
+  "founded": 2011,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Shareholder approval for liquidation",
+  "articleUrl": "https://www.fiercebiotech.com/biotech/hookipa-having-sold-vaccines-gilead-opts-wind-down",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 242,
+  "name": "Oncternal Therapeutics",
+  "description": "Biotechnology company developing precision oncology therapies.",
+  "founded": 2015,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Closure announced, sale of programs",
+  "articleUrl": "https://www.fiercebiotech.com/biotech/ror-deal-oncternal-sells-cancer-assets-mystery-biotech-3m-winds-down-operations",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 243,
+  "name": "iTeos Therapeutics",
+  "description": "Biotechnology company focused on immuno-oncology therapies.",
+  "founded": 2016,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Decision to wind down operations, sell assets",
+  "articleUrl": "https://www.fiercebiotech.com/biotech/adios-iteos-biotech-folds-weeks-after-gsk-tigit-termination",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 244,
+  "name": "Third Harmonic Bio",
+  "description": "Biotechnology company developing therapies for inflammatory diseases.",
+  "founded": 2017,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Stockholder approval of liquidation and dissolution",
+  "articleUrl": "https://ir.thirdharmonicbio.com/news-releases/news-release-details/third-harmonic-bio-announces-stockholder-approval-plan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 245,
+  "name": "HC Bioscience",
+  "description": "Biotechnology company specializing in tRNA therapeutics.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Completed key animal studies, challenges in targeted delivery",
+  "articleUrl": "https://endpts.com/hc-bioscience-a-trna-biotech-backed-by-arch-and-takeda-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 246,
+  "name": "Kojin Therapeutics",
+  "description": "Biotechnology company targeting ferroptosis for cancer and other diseases.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "$60M",
+  "causeOfShutdown": "Funding challenges, difficulty obtaining sufficient funding",
+  "articleUrl": "https://endpts.com/kojin-therapeutics-shuts-down-citing-lack-of-investor-interest-and-complex-science/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 247,
+  "name": "Omega Therapeutics",
+  "description": "Biotechnology company developing epigenomic medicines.",
+  "founded": 2018,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Cash runway issues, entered restructuring support agreement",
+  "articleUrl": "https://www.fiercebiotech.com/biotech/flagships-omega-sinks-toward-bankruptcy-lays-staff-13-months-after-inking-novo-obesity-pact",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 248,
+  "name": "Spotlight Therapeutics",
+  "description": "Biotechnology company developing CRISPR delivery technologies.",
+  "founded": 2018,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "$30M",
+  "causeOfShutdown": "Approach failed to pan out, underwhelming editing efficiency",
+  "articleUrl": "https://endpts.com/exclusive-crispr-delivery-startup-spotlight-therapeutics-shuts-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 249,
+  "name": "Velia",
+  "description": "Biotechnology company focused on microproteins.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Decision to wind down, unrelated to therapeutic potential",
+  "articleUrl": "https://endpts.com/microprotein-biotech-velia-backed-by-tcg-and-foresite-to-wind-down/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 250,
+  "name": "Viracta Therapeutics",
+  "description": "Biotechnology company developing therapies for virus-associated cancers.",
+  "founded": 2015,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Biotechnology",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Financial troubles, unable to weather challenges",
+  "articleUrl": "https://viracta.investorroom.com/2025-02-05-Viracta-Therapeutics-Announces-Wind-Down-of-Operations",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 251,
+  "name": "HerMD",
+  "description": "Tech-enabled subscription-based primary care company.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Healthtech",
+  "funding": "$18M",
+  "causeOfShutdown": "Despite raising funding, financial struggles",
+  "articleUrl": "https://www.informationweek.com/it-leadership/tech-company-layoffs-the-covid-tech-bubble-bursts-sep-14",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 252,
+  "name": "Bento Africa",
+  "description": "HR and payroll technology startup.",
+  "founded": 2019,
+  "shutDown": 2025,
+  "country": "Nigeria",
+  "industry": "HR Tech",
+  "funding": "Undisclosed",
+  "causeOfShutdown": "Allegations of tax and pension remittance scam, internal turmoil",
+  "articleUrl": "https://techpoint.africa/insight/how-bento-africa-allegedly-scammed-customers/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 253,
+  "name": "Lipa Later",
+  "description": "Buy Now, Pay Later (BNPL) fintech startup.",
+  "founded": 2018,
+  "shutDown": 2025,
+  "country": "Kenya",
+  "industry": "Fintech",
+  "funding": "$15M+",
+  "causeOfShutdown": "Mounting debts, failed to secure additional funding",
+  "articleUrl": "https://techcabal.com/2025/03/27/lipa-later-enters-administration/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 254,
+  "name": "Marelli Holdings",
+  "description": "Automotive parts manufacturer.",
+  "founded": 2021,
+  "shutDown": 2025,
+  "country": "Japan",
+  "industry": "Automotive",
+  "funding": "Internal",
+  "causeOfShutdown": "Supply chain issues, bankruptcy",
+  "articleUrl": "https://intellizence.com/insights/bankruptcy/leading-companies-filing-for-bankruptcy/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+},
+{
+  "_id": 255,
+  "name": "Powin Energy",
+  "description": "Energy storage and battery technology company.",
+  "founded": 2010,
+  "shutDown": 2025,
+  "country": "USA",
+  "industry": "Energy Storage",
+  "funding": "$135M+",
+  "causeOfShutdown": "Not specified, bankruptcy",
+  "articleUrl": "https://www.energy-storage.news/powin-could-cease-operations-by-end-of-july-if-present-business-circumstances-do-not-improve/",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-15T15:41:00.031Z"
+  }
+}]
