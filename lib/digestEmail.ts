@@ -4,7 +4,7 @@ import type { Startup } from "@/lib/data";
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const EMAIL_FROM =
   process.env.EMAIL_FROM || "Closed Companies <digest@closedcompanies.com>";
-const APP_URL = process.env.APP_URL || "http://localhost:3000";
+const APP_URL = process.env.APP_URL || "https://www.closedcompanies.site";
 
 if (!RESEND_API_KEY) {
   console.warn(
