@@ -4,7 +4,7 @@ import type { Startup } from "@/lib/data";
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const EMAIL_FROM =
   process.env.EMAIL_FROM || "Closed Companies <onboarding@resend.dev>";
-const APP_URL = process.env.APP_URL || "http://localhost:3000";
+const APP_URL = process.env.APP_URL || "https://www.closedcompanies.site";
 
 if (!RESEND_API_KEY) {
   console.warn(
@@ -85,6 +85,224 @@ export function renderNewsletterHTML(startup: Startup, unsubscribeUrl: string) {
 </html>`;
 }
 
+export function renderWelcomeEmailHTML(unsubscribeUrl: string) {
+  return `<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Welcome to Closed Companies Digest</title>
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #1f2937;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .header {
+        background: #1f2937;
+        color: #ffffff;
+        padding: 40px 30px;
+        text-align: center;
+      }
+      .logo-text {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 8px 0;
+        letter-spacing: -0.5px;
+      }
+      .tagline {
+        font-size: 14px;
+        color: #9ca3af;
+        margin: 0;
+        font-weight: 500;
+      }
+      .content {
+        padding: 40px 30px;
+        background: #ffffff;
+      }
+      .greeting {
+        font-size: 18px;
+        color: #1f2937;
+        margin: 0 0 20px 0;
+        font-weight: 600;
+      }
+      .description {
+        font-size: 16px;
+        color: #4b5563;
+        margin: 0 0 30px 0;
+        line-height: 1.7;
+      }
+      .features {
+        margin: 30px 0;
+      }
+      .feature {
+        display: flex;
+        align-items: flex-start;
+        margin: 16px 0;
+        font-size: 15px;
+        color: #374151;
+      }
+      .feature-icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 12px;
+        margin-top: 2px;
+        color: #059669;
+        font-weight: bold;
+        font-size: 14px;
+        flex-shrink: 0;
+      }
+      .expectations {
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 24px;
+        margin: 30px 0;
+      }
+      .expectations-title {
+        font-weight: 600;
+        color: #1f2937;
+        margin: 0 0 16px 0;
+        font-size: 16px;
+      }
+      .expectations ul {
+        margin: 0;
+        padding-left: 20px;
+        list-style: disc;
+        color: #4b5563;
+      }
+      .expectations li {
+        margin: 8px 0;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      .cta {
+        text-align: center;
+        margin: 30px 0;
+      }
+      .cta-link {
+        display: inline-block;
+        background: #1f2937 !important;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        padding: 14px 28px;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        border: none;
+      }
+      .cta-link:hover {
+        background: #374151 !important;
+        color: #ffffff !important;
+      }
+      .footer {
+        background: #f9fafb;
+        color: #6b7280;
+        font-size: 13px;
+        padding: 24px 30px;
+        text-align: center;
+        border-top: 1px solid #e5e7eb;
+      }
+      .footer a {
+        color: #4b5563;
+        text-decoration: none;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+      .support {
+        background: #f3f4f6;
+        border-radius: 6px;
+        padding: 16px;
+        margin: 24px 0;
+        text-align: center;
+        font-size: 14px;
+        color: #6b7280;
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding: 0;
+        }
+        .header, .content, .footer {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .header {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+        .content {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo-text">Closed Companies</div>
+        <div class="tagline">Weekly Startup Failure Stories</div>
+      </div>
+      
+      <div class="content">
+        <p class="greeting">Thanks for subscribing!</p>
+        
+        <p class="description">
+          You're now part of our community of founders, investors, and entrepreneurs who learn from startup failures. Every Monday, we'll deliver 4-5 detailed case studies of companies that didn't make it, complete with analysis of what went wrong and actionable insights.
+        </p>
+        
+        <div class="features">
+          <div class="feature">
+            <span class="feature-icon">✓</span>
+            <span>4-5 detailed startup failure stories weekly</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">✓</span>
+            <span>In-depth analysis of what went wrong</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">✓</span>
+            <span>Free forever • Unsubscribe anytime</span>
+          </div>
+        </div>
+        
+        <div class="expectations">
+          <p class="expectations-title">What to expect:</p>
+          <ul>
+            <li>Your first digest will arrive next Monday</li>
+            <li>Each story includes the company's background, what they tried, and why they failed</li>
+            <li>We focus on actionable lessons you can apply to your own ventures</li>
+          </ul>
+        </div>
+        
+        <div class="cta">
+          <a href="${APP_URL}" class="cta-link" style="display: inline-block; background: #1f2937; color: #ffffff; text-decoration: none; padding: 14px 28px; border-radius: 6px; font-weight: 600; font-size: 15px; letter-spacing: 0.3px;">Explore Our Archive</a>
+        </div>
+        
+        <div class="support">
+          <p style="margin: 0;">Questions? Just reply to this email and we'll get back to you!</p>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <p>You are receiving this because you subscribed at <a href="${APP_URL}">closedcompanies.site</a></p>
+        <p>If this isn't you, <a href="${unsubscribeUrl}">unsubscribe here</a></p>
+      </div>
+    </div>
+  </body>
+</html>`;
+}
+
 export async function sendEmail(options: {
   to: string;
   subject: string;
@@ -101,8 +319,8 @@ export async function sendEmail(options: {
     subject: options.subject,
     html: options.html,
     headers: {
-      'X-Entity-Ref-ID': new Date().getTime().toString(),
-      ...(options.listUnsubscribe 
+      "X-Entity-Ref-ID": new Date().getTime().toString(),
+      ...(options.listUnsubscribe
         ? { "List-Unsubscribe": `<${options.listUnsubscribe}>` }
         : {}),
     },
