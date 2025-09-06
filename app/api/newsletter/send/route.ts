@@ -45,7 +45,7 @@ export async function POST(request: Request) {
 
     for (const sub of activeSubscribers) {
       const unsubscribeUrl = `${
-        process.env.APP_URL || "http://localhost:3000"
+        process.env.APP_URL || "https://www.closedcompanies.site"
       }/api/newsletter/unsubscribe?token=${encodeURIComponent(
         sub.unsubscribeToken
       )}`;
