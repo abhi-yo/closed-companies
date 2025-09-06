@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
 import Startup from "@/lib/models/Startup";
-import Customer from "@/lib/models/Customer";
+import Subscriber from "@/lib/models/Subscriber";
 import { sendDigestEmail } from "@/lib/digestEmail";
 import { sendLimiter } from "@/lib/rateLimiter";
 
@@ -87,16 +87,17 @@ export async function POST(request: Request) {
 
     await connectDB();
 
-    // Get active paid customers
-    const activeCustomers = await Customer.find({
-      subscriptionStatus: "active",
+    // Get verified subscribers
+    const verifiedSubscribers = await Subscriber.find({
+      verified: true,
+      unsubscribedAt: null,
     }).lean();
 
-    if (activeCustomers.length === 0) {
+    if (verifiedSubscribers.length === 0) {
       return NextResponse.json({
         ok: true,
         sent: 0,
-        message: "No active customers",
+        message: "No verified subscribers",
       });
     }
 
@@ -109,30 +110,31 @@ export async function POST(request: Request) {
     let sent = 0;
     let failed = 0;
 
-    // Send to all active customers
+    // Send to all verified subscribers
     await Promise.all(
-      activeCustomers.map(async (customer) => {
+      verifiedSubscribers.map(async (subscriber) => {
         try {
           const unsubscribeUrl = `${
-            process.env.APP_URL || "http://localhost:3000"
+            process.env.APP_URL || "https://www.closedcompanies.site"
           }/api/digest/unsubscribe?token=${encodeURIComponent(
-            customer.unsubscribeToken
+            subscriber.unsubscribeToken
           )}`;
 
           await sendDigestEmail({
-            to: customer.email,
+            to: subscriber.email,
             startups: selectedStartups,
             unsubscribeUrl,
           });
 
           // Update last sent timestamp
-          await Customer.findByIdAndUpdate(customer._id, {
-            lastDigestSentAt: new Date(),
+          await Subscriber.findByIdAndUpdate(subscriber._id, {
+            lastEmailSent: new Date(),
+            $inc: { emailsSent: 1 },
           });
 
           sent += 1;
         } catch (e) {
-          console.error("Failed to send digest to", customer.email, e);
+          console.error("Failed to send digest to", subscriber.email, e);
           failed += 1;
         }
       })
