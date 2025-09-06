@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { NeumorphicButton } from "./neumorphic-button"
-import { Heading } from "./heading"
+import type React from "react";
+import { useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { NeumorphicButton } from "./neumorphic-button";
+import { Heading } from "./heading";
 
 export function SubmitForm() {
   const [formData, setFormData] = useState({
@@ -19,12 +19,13 @@ export function SubmitForm() {
     causeOfShutdown: "",
     articleUrl: "",
     description: "",
-  })
+  });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-    alert("Thank you for your submission! (This is a demo - data not actually saved)")
+    e.preventDefault();
+    alert(
+      "Thank you for your submission! (This is a demo - data not actually saved)"
+    );
     setFormData({
       name: "",
       founded: "",
@@ -35,15 +36,17 @@ export function SubmitForm() {
       causeOfShutdown: "",
       articleUrl: "",
       description: "",
-    })
-  }
+    });
+  };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
-    }))
-  }
+    }));
+  };
 
   return (
     <div className="neumorphic-card p-6 md:p-8 max-w-4xl mx-auto">
@@ -54,7 +57,10 @@ export function SubmitForm() {
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <div className="space-y-2">
-            <Label htmlFor="name" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="name"
+              className="font-dm-sans font-medium text-white"
+            >
               Startup Name *
             </Label>
             <Input
@@ -68,7 +74,10 @@ export function SubmitForm() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="industry" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="industry"
+              className="font-dm-sans font-medium text-white"
+            >
               Industry *
             </Label>
             <Input
@@ -82,7 +91,10 @@ export function SubmitForm() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="founded" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="founded"
+              className="font-dm-sans font-medium text-white"
+            >
               Founded Year *
             </Label>
             <Input
@@ -97,7 +109,10 @@ export function SubmitForm() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="shutDown" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="shutDown"
+              className="font-dm-sans font-medium text-white"
+            >
               Shut Down Year *
             </Label>
             <Input
@@ -112,7 +127,10 @@ export function SubmitForm() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="country" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="country"
+              className="font-dm-sans font-medium text-white"
+            >
               Country *
             </Label>
             <Input
@@ -126,7 +144,10 @@ export function SubmitForm() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="funding" className="font-dm-sans font-medium text-white">
+            <Label
+              htmlFor="funding"
+              className="font-dm-sans font-medium text-white"
+            >
               Total Funding *
             </Label>
             <Input
@@ -142,7 +163,10 @@ export function SubmitForm() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="causeOfShutdown" className="font-dm-sans font-medium text-white">
+          <Label
+            htmlFor="causeOfShutdown"
+            className="font-dm-sans font-medium text-white"
+          >
             Cause of Shutdown *
           </Label>
           <Input
@@ -157,7 +181,10 @@ export function SubmitForm() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="articleUrl" className="font-dm-sans font-medium text-white">
+          <Label
+            htmlFor="articleUrl"
+            className="font-dm-sans font-medium text-white"
+          >
             Article URL (Optional)
           </Label>
           <Input
@@ -172,7 +199,10 @@ export function SubmitForm() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="description" className="font-dm-sans font-medium text-white">
+          <Label
+            htmlFor="description"
+            className="font-dm-sans font-medium text-white"
+          >
             Description (Optional)
           </Label>
           <Textarea
@@ -193,5 +223,5 @@ export function SubmitForm() {
         </div>
       </form>
     </div>
-  )
+  );
 }
