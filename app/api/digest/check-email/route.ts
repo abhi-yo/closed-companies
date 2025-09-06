@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
-import Customer from "@/lib/models/Customer";
+import Subscriber from "@/lib/models/Subscriber";
 
 export async function POST(request: Request) {
   try {
@@ -16,20 +16,22 @@ export async function POST(request: Request) {
     const normalizedEmail = email.trim().toLowerCase();
     console.log("Normalized email:", normalizedEmail);
 
-    const customer = await Customer.findOne({ email: normalizedEmail }).lean();
-    console.log("Found customer:", customer);
+    const subscriber = await Subscriber.findOne({
+      email: normalizedEmail,
+    }).lean();
+    console.log("Found subscriber:", subscriber);
 
-    if (!customer) {
+    if (!subscriber) {
       return NextResponse.json({
         exists: false,
-        status: null,
+        verified: false,
       });
     }
 
     return NextResponse.json({
       exists: true,
-      status: customer.subscriptionStatus,
-      subscribedAt: customer.subscribedAt,
+      verified: subscriber.verified,
+      subscribedAt: subscriber.createdAt,
     });
   } catch (error) {
     console.error("Check email error", error);
